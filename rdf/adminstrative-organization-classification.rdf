@@ -1,0 +1,2513 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:schema="http://schema.org/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:ado="http://datahub.kr/ontology/administrative-organization/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/">
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/00">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdf:type rdf:resource="http://schema.org/Organization"/>
+	<ado:categoryCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">00</ado:categoryCode>
+	<skos:prefLabel>대한민국정부</skos:prefLabel>
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/01"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/01">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdf:type rdf:resource="http://schema.org/Organization"/>
+	<ado:divisionCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">01</ado:divisionCode>
+	<skos:prefLabel>대통령</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/00"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/00">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/02"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/02">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdf:type rdf:resource="http://schema.org/Organization"/>
+	<ado:divisionCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">02</ado:divisionCode>
+	<skos:prefLabel>국무총리</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/00"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/01">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdf:type rdf:resource="http://schema.org/Organization"/>
+	<ado:categoryCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">01</ado:categoryCode>
+	<skos:prefLabel>국가행정기관</skos:prefLabel>
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/01"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/01">
+	<skos:prefLabel>중앙행정기관 및 이에 준하는 기관</skos:prefLabel>
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/01"/>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/01"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/01">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdf:type rdf:resource="http://schema.org/Organization"/>
+	<ado:sectionCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">01</ado:sectionCode>
+	<skos:prefLabel>부</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/01"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/01">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/02"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/02">
+	<skos:prefLabel>중앙행정기관 및 이에 준하는 기관</skos:prefLabel>
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/02"/>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/01"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/02">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdf:type rdf:resource="http://schema.org/Organization"/>
+	<ado:sectionCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">02</ado:sectionCode>
+	<skos:prefLabel>처</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/02"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/01">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/03"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/03">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdf:type rdf:resource="http://schema.org/Organization"/>
+	<ado:divisionCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">03</ado:divisionCode>
+	<skos:prefLabel>중앙행정기관 및 이에 준하는 기관</skos:prefLabel>
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/03"/>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/01"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/03">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdf:type rdf:resource="http://schema.org/Organization"/>
+	<ado:sectionCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">03</ado:sectionCode>
+	<skos:prefLabel>청</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/03"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/01">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/04"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/04">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdf:type rdf:resource="http://schema.org/Organization"/>
+	<ado:divisionCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">04</ado:divisionCode>
+	<skos:prefLabel>중앙행정기관 및 이에 준하는 기관</skos:prefLabel>
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/04"/>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/01"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/04">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdf:type rdf:resource="http://schema.org/Organization"/>
+	<ado:sectionCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">04</ado:sectionCode>
+	<skos:prefLabel>외국</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/04"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/01">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/05"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/05">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdf:type rdf:resource="http://schema.org/Organization"/>
+	<ado:divisionCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">05</ado:divisionCode>
+	<skos:prefLabel>중앙행정기관 및 이에 준하는 기관</skos:prefLabel>
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/05"/>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/01"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/05">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdf:type rdf:resource="http://schema.org/Organization"/>
+	<ado:sectionCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">05</ado:sectionCode>
+	<skos:prefLabel>원</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/05"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/01">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/06"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/06">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdf:type rdf:resource="http://schema.org/Organization"/>
+	<ado:divisionCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">06</ado:divisionCode>
+	<skos:prefLabel>중앙행정기관 및 이에 준하는 기관</skos:prefLabel>
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/06"/>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/01"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/06">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdf:type rdf:resource="http://schema.org/Organization"/>
+	<ado:sectionCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">06</ado:sectionCode>
+	<skos:prefLabel>실</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/06"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/01">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/07"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/07">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdf:type rdf:resource="http://schema.org/Organization"/>
+	<ado:divisionCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">07</ado:divisionCode>
+	<skos:prefLabel>중앙행정기관 및 이에 준하는 기관</skos:prefLabel>
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/07"/>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/01"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/07">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdf:type rdf:resource="http://schema.org/Organization"/>
+	<ado:sectionCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">07</ado:sectionCode>
+	<skos:prefLabel>위원회</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/07"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/01">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/08"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/08">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdf:type rdf:resource="http://schema.org/Organization"/>
+	<ado:divisionCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">08</ado:divisionCode>
+	<skos:prefLabel>중앙행정기관 및 이에 준하는 기관</skos:prefLabel>
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/08"/>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/01"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/08">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdf:type rdf:resource="http://schema.org/Organization"/>
+	<ado:sectionCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">08</ado:sectionCode>
+	<skos:prefLabel>대통령직속(위원회)</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/08"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/01">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/09"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/09">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdf:type rdf:resource="http://schema.org/Organization"/>
+	<ado:divisionCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">09</ado:divisionCode>
+	<skos:prefLabel>중앙행정기관 및 이에 준하는 기관</skos:prefLabel>
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/09"/>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/01"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/09">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdf:type rdf:resource="http://schema.org/Organization"/>
+	<ado:sectionCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">09</ado:sectionCode>
+	<skos:prefLabel>대통령직속(기타)</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/09"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/01">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/10"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/10">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdf:type rdf:resource="http://schema.org/Organization"/>
+	<ado:divisionCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10</ado:divisionCode>
+	<skos:prefLabel>중앙행정기관 및 이에 준하는 기관</skos:prefLabel>
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/10"/>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/01"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/10">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdf:type rdf:resource="http://schema.org/Organization"/>
+	<ado:sectionCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10</ado:sectionCode>
+	<skos:prefLabel>국무총리직속(위원회)</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/10"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/01">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/11"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/11">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdf:type rdf:resource="http://schema.org/Organization"/>
+	<ado:divisionCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">11</ado:divisionCode>
+	<skos:prefLabel>중앙행정기관 및 이에 준하는 기관</skos:prefLabel>
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/11"/>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/01"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/11">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdf:type rdf:resource="http://schema.org/Organization"/>
+	<ado:sectionCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">11</ado:sectionCode>
+	<skos:prefLabel>국무총리직속(기타)</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/11"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/02">
+	<skos:prefLabel>기관장</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/03">
+	<skos:prefLabel>위원</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/04">
+	<skos:prefLabel>하부조직(보조기관)</skos:prefLabel>
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/01"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/01">
+	<skos:prefLabel>부기관장</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/04"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/04">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/02"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/02">
+	<skos:prefLabel>본부</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/04"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/04">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/03"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/03">
+	<skos:prefLabel>실</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/04"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/04">
+	<skos:prefLabel>처</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/04">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/05"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/05">
+	<skos:prefLabel>국</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/04"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/04">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/06"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/06">
+	<skos:prefLabel>부</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/04"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/04">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/07"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/07">
+	<skos:prefLabel>과</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/04"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/04">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/08"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/08">
+	<skos:prefLabel>단1</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/04"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/04">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/09"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/09">
+	<skos:prefLabel>팀1</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/04"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/04">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/10"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/10">
+	<skos:prefLabel>반1</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/04"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/04">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/11"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/11">
+	<skos:prefLabel>센터</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/04"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/05">
+	<skos:prefLabel>하부조직(보좌기관)</skos:prefLabel>
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/01"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/01">
+	<skos:prefLabel>차관보</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/05"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/05">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/02"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/02">
+	<skos:prefLabel>담당관</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/05"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/05">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/03"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/03">
+	<skos:prefLabel>단2</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/05"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/05">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/04"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/04">
+	<skos:prefLabel>팀2</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/05"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/05">
+	<skos:prefLabel>반2</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/05">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/06"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/06">
+	<skos:prefLabel>본부2</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/05"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/05">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/07"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/07">
+	<skos:prefLabel>센터2</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/05"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/06">
+	<skos:prefLabel>소속기관(합의제행정기관)</skos:prefLabel>
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/01"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/01">
+	<skos:prefLabel>행정위원회</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/06"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/06">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/02"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/02">
+	<skos:prefLabel>기타 합의제행정기관</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/06"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/07">
+	<skos:prefLabel>소속기관(부속기관)</skos:prefLabel>
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/01"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/01">
+	<skos:prefLabel>시험연구기관</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/07"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/07">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/02"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/02">
+	<skos:prefLabel>교육훈련기관</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/07"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/07">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/03"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/03">
+	<skos:prefLabel>문화기관</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/07"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/07">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/04"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/04">
+	<skos:prefLabel>의료기관</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/07"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/07">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/05"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/05">
+	<skos:prefLabel>생산제조기관</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/07"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/07">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/06"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/06">
+	<skos:prefLabel>자문기관</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/07"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/07">
+	<skos:prefLabel>기타기관</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/08">
+	<skos:prefLabel>소속기관(특별행정지방기관)</skos:prefLabel>
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/01"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/01">
+	<skos:prefLabel>일반행정(병무, 보훈,국토,건설)</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/08"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/08">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/02"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/02">
+	<skos:prefLabel>조세행정(국세,관세)</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/08"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/08">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/03"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/03">
+	<skos:prefLabel>공안행정(경찰,소방,교정)</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/08"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/08">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/04"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/04">
+	<skos:prefLabel>현업행정(철도,국립의료,체신)</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/08"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/08">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/05"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/05">
+	<skos:prefLabel>노동행정</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/08"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/08">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/06"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/06">
+	<skos:prefLabel>기타행정(통계,기상,검역,항만관리)</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/08"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/09">
+	<skos:prefLabel>대통령자문위원회</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/01">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/98"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/98">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdf:type rdf:resource="http://schema.org/Organization"/>
+	<ado:divisionCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">98</ado:divisionCode>
+	<skos:prefLabel>한시기구</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/01"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/01">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/99"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/99">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdf:type rdf:resource="http://schema.org/Organization"/>
+	<ado:divisionCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">99</ado:divisionCode>
+	<skos:prefLabel>제외기구</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/01"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/02">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdf:type rdf:resource="http://schema.org/Organization"/>
+	<ado:categoryCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">02</ado:categoryCode>
+	<skos:prefLabel>자치행정조직</skos:prefLabel>
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/http%3A%2F%2Fdatahub.kr%2Fadministrative-organization%2Fdivision%2F01+"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/http%3A%2F%2Fdatahub.kr%2Fadministrative-organization%2Fdivision%2F01+">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdf:type rdf:resource="http://schema.org/Organization"/>
+	<ado:divisionCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">01 </ado:divisionCode>
+	<skos:prefLabel>광역자치단체</skos:prefLabel>
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/01"/>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/02"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/01">
+	<skos:prefLabel>특별시</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/http%3A%2F%2Fdatahub.kr%2Fadministrative-organization%2Fdivision%2F01+"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/http%3A%2F%2Fdatahub.kr%2Fadministrative-organization%2Fdivision%2F01+">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/02"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/02">
+	<skos:prefLabel>직할시</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/http%3A%2F%2Fdatahub.kr%2Fadministrative-organization%2Fdivision%2F01+"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/http%3A%2F%2Fdatahub.kr%2Fadministrative-organization%2Fdivision%2F01+">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/03"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/03">
+	<skos:prefLabel>도</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/http%3A%2F%2Fdatahub.kr%2Fadministrative-organization%2Fdivision%2F01+"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/http%3A%2F%2Fdatahub.kr%2Fadministrative-organization%2Fdivision%2F01+">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/04"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/04">
+	<skos:prefLabel>광역시</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/http%3A%2F%2Fdatahub.kr%2Fadministrative-organization%2Fdivision%2F01+"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/http%3A%2F%2Fdatahub.kr%2Fadministrative-organization%2Fdivision%2F01+">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/05"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/05">
+	<skos:prefLabel>특별자치도</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/http%3A%2F%2Fdatahub.kr%2Fadministrative-organization%2Fdivision%2F01+"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/http%3A%2F%2Fdatahub.kr%2Fadministrative-organization%2Fdivision%2F01+">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/06"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/06">
+	<skos:prefLabel>특별자치시</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/http%3A%2F%2Fdatahub.kr%2Fadministrative-organization%2Fdivision%2F01+"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/02">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/02"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/02">
+	<skos:prefLabel>기초자치단체</skos:prefLabel>
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/01"/>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/02"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/01">
+	<skos:prefLabel>일반시</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/02"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/02">
+	<skos:prefLabel>도농복합시</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/02">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/03"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/03">
+	<skos:prefLabel>군</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/02"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/02">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/04"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/04">
+	<skos:prefLabel>자치구</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/02"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/02">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/03"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/03">
+	<skos:prefLabel>하부행정기구</skos:prefLabel>
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/01"/>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/02"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/01">
+	<skos:prefLabel>자치구가 아닌 구</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/03"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/03">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/02"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/02">
+	<skos:prefLabel>읍</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/03"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/03">
+	<skos:prefLabel>면</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/03">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/04"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/04">
+	<skos:prefLabel>동</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/03"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/03">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/05"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/05">
+	<skos:prefLabel>리</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/03"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/03">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/06"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/06">
+	<skos:prefLabel>지방자치단체가 아닌 시</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/03"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/03">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/07"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/07">
+	<skos:prefLabel>책임읍</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/03"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/03">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/08"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/08">
+	<skos:prefLabel>책임면</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/03"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/03">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/09"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/09">
+	<skos:prefLabel>책임동</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/03"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/03">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/10"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/10">
+	<skos:prefLabel>책임과</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/03"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/02">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/04"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/04">
+	<skos:prefLabel>의회사무기구</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/02"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/01">
+	<skos:prefLabel>의회사무처</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/02">
+	<skos:prefLabel>의회사무국</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/03">
+	<skos:prefLabel>의회사무과</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/02">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/05"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/05">
+	<skos:prefLabel>소속기관(직속기관)</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/02"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/01">
+	<skos:prefLabel>지방농촌진흥기구</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/02">
+	<skos:prefLabel>지방공무원교육원</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/03">
+	<skos:prefLabel>보건환경연구원</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/04">
+	<skos:prefLabel>보건소</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/05">
+	<skos:prefLabel>지방소방학교</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/06">
+	<skos:prefLabel>소방서</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/07">
+	<skos:prefLabel>시립대학</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/05">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/08"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/08">
+	<skos:prefLabel>전문대학</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/05"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/05">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/09"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/09">
+	<skos:prefLabel>보훈청</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/05"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/05">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/10"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/10">
+	<skos:prefLabel>자치경찰기관</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/05"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/05">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/11"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/11">
+	<skos:prefLabel>119지역대</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/05"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/05">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/12"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/12">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdf:type rdf:resource="http://schema.org/Organization"/>
+	<ado:sectionCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">12</ado:sectionCode>
+	<skos:prefLabel>안전구조대</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/05"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/02">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/06"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/06">
+	<skos:prefLabel>소속기관(사업소)</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/02"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/01">
+	<skos:prefLabel>사업소</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/06">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/03"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/03">
+	<skos:prefLabel>차장</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/06"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/06">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/04"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/04">
+	<skos:prefLabel>부</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/06"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/06">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/05"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/05">
+	<skos:prefLabel>과</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/06"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/06">
+	<skos:prefLabel>담당관</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/06">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/07"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/07">
+	<skos:prefLabel>지역사업소</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/06"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/02">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/07"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/07">
+	<skos:prefLabel>소속기관(출장소)</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/02"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/01">
+	<skos:prefLabel>도 출장소</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/02">
+	<skos:prefLabel>시 출장소</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/03">
+	<skos:prefLabel>군 출장소</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/04">
+	<skos:prefLabel>구 출장소</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/05">
+	<skos:prefLabel>읍 출장소</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/06">
+	<skos:prefLabel>면 출장소</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/02">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/08"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/08">
+	<skos:prefLabel>기관장</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/02"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/02">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/09"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/09">
+	<skos:prefLabel>본청(보조기관)</skos:prefLabel>
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/01"/>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/02"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/01">
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/09"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/09">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/02"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/02">
+	<skos:prefLabel>실</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/09"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/09">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/03"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/03">
+	<skos:prefLabel>국</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/09"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/09">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/04"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/04">
+	<skos:prefLabel>본부</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/09"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/09">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/05"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/05">
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/09"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/09">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/06"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/06">
+	<skos:prefLabel>과단위 실</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/09"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/09">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/07"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/07">
+	<skos:prefLabel>과단위 팀</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/09"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/09">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/08"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/08">
+	<skos:prefLabel>과단위 반</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/09"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/09">
+	<skos:prefLabel>단장</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/02">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/10"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/10">
+	<skos:prefLabel>본청(보좌기관)</skos:prefLabel>
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/01"/>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/02"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/01">
+	<skos:prefLabel>관</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/10"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/10">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/02"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/02">
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/10"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/02">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/11"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/11">
+	<skos:prefLabel>소속기관(합의제행정기관)</skos:prefLabel>
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/01"/>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/02"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/01">
+	<skos:prefLabel>감사위원회</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/11"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/11">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/02"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/02">
+	<skos:prefLabel>지방노동위원회</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/11"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/02">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/12"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/12">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdf:type rdf:resource="http://schema.org/Organization"/>
+	<ado:divisionCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">12</ado:divisionCode>
+	<skos:prefLabel>위원회</skos:prefLabel>
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/01"/>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/02"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/01">
+	<skos:prefLabel>행정</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/12"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/09">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdf:type rdf:resource="http://schema.org/Organization"/>
+	<ado:categoryCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">09</ado:categoryCode>
+	<skos:prefLabel>위원회</skos:prefLabel>
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/01"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/01">
+	<skos:prefLabel>행정</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/09"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/09">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/02"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/02">
+	<skos:prefLabel>의결</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/09"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/09">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/03"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/03">
+	<skos:prefLabel>자문</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/09"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/09">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/04"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/04">
+	<skos:prefLabel>심의</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/09"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/10">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdf:type rdf:resource="http://schema.org/Organization"/>
+	<ado:categoryCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10</ado:categoryCode>
+	<skos:prefLabel>경제자유구역청(조합)</skos:prefLabel>
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/01"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/01">
+	<skos:prefLabel>하부조직</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/10"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/01">
+	<skos:prefLabel>본부</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/01">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/02"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/02">
+	<skos:prefLabel>부</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/01"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/01">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/03"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/03">
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/01"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/01">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/04"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/04">
+	<skos:prefLabel>관</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/01"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/01">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/05"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/05">
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/01"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/01">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/06"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/06">
+	<skos:prefLabel>과단위 팀</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/01"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/04">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdf:type rdf:resource="http://schema.org/Organization"/>
+	<ado:categoryCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">04</ado:categoryCode>
+	<skos:prefLabel>입법조직</skos:prefLabel>
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/01"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/01">
+	<skos:prefLabel>국회의원</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/04"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/04">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/02"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/02">
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/04"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/04">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/03"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/03">
+	<skos:prefLabel>보조기관</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/04"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/04">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/04"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/04">
+	<skos:prefLabel>보좌기관</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/04"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/01">
+	<skos:prefLabel>담당관</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/04">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/05"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/05">
+	<skos:prefLabel>특별위원회</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/04"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/04">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/06"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/06">
+	<skos:prefLabel>상임위원회</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/04"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/05">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdf:type rdf:resource="http://schema.org/Organization"/>
+	<ado:categoryCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">05</ado:categoryCode>
+	<skos:prefLabel>사법조직</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/06">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdf:type rdf:resource="http://schema.org/Organization"/>
+	<ado:categoryCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">06</ado:categoryCode>
+	<skos:prefLabel>헌법조직</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/03">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdf:type rdf:resource="http://schema.org/Organization"/>
+	<ado:categoryCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">03</ado:categoryCode>
+	<skos:prefLabel>교육행정조직</skos:prefLabel>
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/http%3A%2F%2Fdatahub.kr%2Fadministrative-organization%2Fdivision%2F01+"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/http%3A%2F%2Fdatahub.kr%2Fadministrative-organization%2Fdivision%2F01+">
+	<skos:prefLabel>시,도교육청</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/03"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/03">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/02"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/02">
+	<skos:prefLabel>시,도교육청 직속기관</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/03"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/03">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/03"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/03">
+	<skos:prefLabel>교육위원회 의사국</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/03"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/03">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/04"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/04">
+	<skos:prefLabel>지역교육청</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/03"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/03">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/05"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/05">
+	<skos:prefLabel>지역교육청 소속기관</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/03"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/03">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/06"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/06">
+	<skos:prefLabel>기관장</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/03"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/03">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/07"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/07">
+	<skos:prefLabel>하부조직(보조기관)</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/03"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/04">
+	<skos:prefLabel>과</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/03">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/08"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/08">
+	<skos:prefLabel>하부조직(보좌기관)</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/03"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/11">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdf:type rdf:resource="http://schema.org/Organization"/>
+	<ado:categoryCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">11</ado:categoryCode>
+	<skos:prefLabel>유치원</skos:prefLabel>
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/01"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/01">
+	<skos:prefLabel>유치원</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/11"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/01">
+	<skos:prefLabel>국립</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/02">
+	<skos:prefLabel>공립</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/03">
+	<skos:prefLabel>사립</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/04">
+	<skos:prefLabel>관인</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/12">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdf:type rdf:resource="http://schema.org/Organization"/>
+	<ado:categoryCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">12</ado:categoryCode>
+	<skos:prefLabel>초등학교</skos:prefLabel>
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/http%3A%2F%2Fdatahub.kr%2Fadministrative-organization%2Fdivision%2F01+"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/http%3A%2F%2Fdatahub.kr%2Fadministrative-organization%2Fdivision%2F01+">
+	<skos:prefLabel>초등학교(본교)</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/12"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/12">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/02"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/02">
+	<skos:prefLabel>초등학교(분교장)</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/12"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/12">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/03"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/03">
+	<skos:prefLabel>기타초등학교과정</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/12"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/13">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdf:type rdf:resource="http://schema.org/Organization"/>
+	<ado:categoryCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">13</ado:categoryCode>
+	<skos:prefLabel>중학교</skos:prefLabel>
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/01"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/01">
+	<skos:prefLabel>중학교(본교)</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/13"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/13">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/02"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/02">
+	<skos:prefLabel>중학교(분교장)</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/13"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/13">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/03"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/03">
+	<skos:prefLabel>고등공민학교</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/13"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/13">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/04"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/04">
+	<skos:prefLabel>기타중학교과정</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/13"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/14">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdf:type rdf:resource="http://schema.org/Organization"/>
+	<ado:categoryCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">14</ado:categoryCode>
+	<skos:prefLabel>고등학교</skos:prefLabel>
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/01"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/01">
+	<skos:prefLabel>일반계 고등학교</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/14"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/14">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/02"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/02">
+	<skos:prefLabel>실업계 고등학교</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/14"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/14">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/03"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/03">
+	<skos:prefLabel>방송통신 고등학교</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/14"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/14">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/04"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/04">
+	<skos:prefLabel>산업체부설 고등학교</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/14"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/14">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/05"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/05">
+	<skos:prefLabel>고등기술학교</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/14"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/14">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/07"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/07">
+	<skos:prefLabel>기타 고등학교과정 </skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/14"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/15">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdf:type rdf:resource="http://schema.org/Organization"/>
+	<ado:categoryCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">15</ado:categoryCode>
+	<skos:prefLabel>고등교육기관</skos:prefLabel>
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/01"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/01">
+	<skos:prefLabel>4년제 정규대학</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/15"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/15">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/02"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/02">
+	<skos:prefLabel>산업대학</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/15"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/15">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/03"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/03">
+	<skos:prefLabel>교육대학</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/15"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/15">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/04"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/04">
+	<skos:prefLabel>전문대학</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/15"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/15">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/05"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/05">
+	<skos:prefLabel>방송통신대학</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/15"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/15">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/06"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/06">
+	<skos:prefLabel>기술대학</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/15"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/15">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/07"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/07">
+	<skos:prefLabel>대학원</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/15"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/15">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/08"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/08">
+	<skos:prefLabel>대학원대학</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/15"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/15">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/09"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/09">
+	<skos:prefLabel>신학교</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/15"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/15">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/10"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/10">
+	<skos:prefLabel>특수학교</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/15"/>
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/03"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/03">
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/10"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/10">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/04"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/04">
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/10"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/15">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/11"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/11">
+	<skos:prefLabel>각종학교</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/15"/>
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/03"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/03">
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/11"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/11">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/04"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/04">
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/11"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/16">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdf:type rdf:resource="http://schema.org/Organization"/>
+	<ado:categoryCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">16</ado:categoryCode>
+	<skos:prefLabel>특수학교</skos:prefLabel>
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/01"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/01">
+	<skos:prefLabel>유치부</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/16"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/05">
+	<skos:prefLabel>병설</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/06">
+	<skos:prefLabel>독립</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/01">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/07"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/07">
+	<skos:prefLabel>국외</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/01"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/16">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/02"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/02">
+	<skos:prefLabel>초등부</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/16"/>
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/05"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/05">
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/02"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/02">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/06"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/06">
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/02"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/02">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/07"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/07">
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/02"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/16">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/03"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/03">
+	<skos:prefLabel>중학부</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/16"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/16">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/04"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/04">
+	<skos:prefLabel>고등부</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/16"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/16">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/05"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/05">
+	<skos:prefLabel>전공과</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/16"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/17">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdf:type rdf:resource="http://schema.org/Organization"/>
+	<ado:categoryCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">17</ado:categoryCode>
+	<skos:prefLabel>평생교육기관</skos:prefLabel>
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/01"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/01">
+	<skos:prefLabel>지역사회학교</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/17"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/17">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/03"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/03">
+	<skos:prefLabel>직업훈련기관</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/17"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/17">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/04"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/04">
+	<skos:prefLabel>산업교육연수기관</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/17"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/17">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/05"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/05">
+	<skos:prefLabel>사내기술대학</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/17"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/17">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/06"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/06">
+	<skos:prefLabel>민간단체</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/17"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/17">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/07"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/07">
+	<skos:prefLabel>학교부설사회교육기관</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/17"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/17">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/09"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/09">
+	<skos:prefLabel>문화시설 및 기관</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/17"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/17">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/10"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/10">
+	<skos:prefLabel>여성교육기관</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/17"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/17">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/11"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/11">
+	<skos:prefLabel>노인교육기관</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/17"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/17">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/12"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/12">
+	<skos:prefLabel>농어촌사회교육기관</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/17"/>
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/02"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/02">
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/12"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/12">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/03"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/03">
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/12"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/12">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/04"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/04">
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/12"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/17">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/13"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/13">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdf:type rdf:resource="http://schema.org/Organization"/>
+	<ado:divisionCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">13</ado:divisionCode>
+	<skos:prefLabel>사회복지관</skos:prefLabel>
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/01"/>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/17"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/01">
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/13"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/13">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/02"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/02">
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/13"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/13">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/03"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/03">
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/13"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/13">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/04"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/04">
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/13"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/17">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/14"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/14">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdf:type rdf:resource="http://schema.org/Organization"/>
+	<ado:divisionCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">14</ado:divisionCode>
+	<skos:prefLabel>군대교육</skos:prefLabel>
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/01"/>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/17"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/01">
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/14"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/14">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/02"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/02">
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/14"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/14">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/03"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/03">
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/14"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/14">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/04"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/04">
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/14"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/17">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/15"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/15">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdf:type rdf:resource="http://schema.org/Organization"/>
+	<ado:divisionCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">15</ado:divisionCode>
+	<skos:prefLabel>상담기관</skos:prefLabel>
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/01"/>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/17"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/01">
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/15"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/15">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/02"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/02">
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/15"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/15">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/03"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/03">
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/15"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/15">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/04"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/04">
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/15"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/17">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/16"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/16">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdf:type rdf:resource="http://schema.org/Organization"/>
+	<ado:divisionCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">16</ado:divisionCode>
+	<skos:prefLabel>연구기관</skos:prefLabel>
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/01"/>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/17"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/01">
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/16"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/16">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/02"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/02">
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/16"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/16">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/03"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/03">
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/16"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/16">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/04"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/04">
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/16"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/17">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/17"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/17">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdf:type rdf:resource="http://schema.org/Organization"/>
+	<ado:divisionCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">17</ado:divisionCode>
+	<skos:prefLabel>학원</skos:prefLabel>
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/01"/>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/17"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/01">
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/17"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/17">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/02"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/02">
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/17"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/17">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/03"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/03">
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/17"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/17">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/04"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/04">
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/17"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/17">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/18"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/18">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdf:type rdf:resource="http://schema.org/Organization"/>
+	<ado:divisionCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">18</ado:divisionCode>
+	<skos:prefLabel>기타</skos:prefLabel>
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/01"/>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/17"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/01">
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/18"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/18">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/02"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/02">
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/18"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/18">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/03"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/03">
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/18"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/18">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/section/04"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/04">
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/division/18"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/07">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdf:type rdf:resource="http://schema.org/Organization"/>
+	<ado:categoryCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">07</ado:categoryCode>
+	<skos:prefLabel>정부투자기관및기타</skos:prefLabel>
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/01"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/01">
+	<skos:prefLabel>정부투자기관</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/07"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/07">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/02"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/02">
+	<skos:prefLabel>정부출연단체</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/07"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/07">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/03"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/03">
+	<skos:prefLabel>일부투자단체</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/07"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/07">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/04"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/04">
+	<skos:prefLabel>공적단체</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/07"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/07">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/05"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/05">
+	<skos:prefLabel>보조단체</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/07"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/07">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/06"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/06">
+	<skos:prefLabel>재투자단체</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/07"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/07">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/07"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/07">
+	<skos:prefLabel>재출연단체</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/07"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/07">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/08"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/08">
+	<skos:prefLabel>보증단체</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/07"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/07">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/09"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/09">
+	<skos:prefLabel>기금관리단체</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/07"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/07">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/10"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/10">
+	<skos:prefLabel>기금출연,보조단체</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/07"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/07">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/11"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/11">
+	<skos:prefLabel>행정사무대행단체</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/07"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/07">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/12"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/12">
+	<skos:prefLabel>기타</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/07"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/08">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdf:type rdf:resource="http://schema.org/Organization"/>
+	<ado:categoryCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">08</ado:categoryCode>
+	<skos:prefLabel>산하기관</skos:prefLabel>
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/01"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/01">
+	<skos:prefLabel>정부출연기관</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/08"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/08">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/02"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/02">
+	<skos:prefLabel>정부투자기관</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/08"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/08">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/03"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/03">
+	<skos:prefLabel>정부재투자기관</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/08"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/08">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/04"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/04">
+	<skos:prefLabel>정부출자기관</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/08"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/08">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/05"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/05">
+	<skos:prefLabel>기금관리기관</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/08"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/08">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/06"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/06">
+	<skos:prefLabel>정부보조기관</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/08"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/08">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/07"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/07">
+	<skos:prefLabel>출연,투자,출자기관의 자회사</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/08"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/08">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/08"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/08">
+	<skos:prefLabel>기타</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/08"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/80">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdf:type rdf:resource="http://schema.org/Organization"/>
+	<ado:categoryCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">80</ado:categoryCode>
+	<skos:prefLabel>금융기관</skos:prefLabel>
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/01"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/01">
+	<skos:prefLabel>은행업</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/80"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/01">
+	<skos:prefLabel>일반은행</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/02">
+	<skos:prefLabel>특수은행</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/80">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/02"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/02">
+	<skos:prefLabel>보험업</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/80"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/01">
+	<skos:prefLabel>생명보험</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/02">
+	<skos:prefLabel>손해보험</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/80">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/03"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/03">
+	<skos:prefLabel>증권관련업</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/80"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/01">
+	<skos:prefLabel>증권회사</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/02">
+	<skos:prefLabel>선물회사</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/03">
+	<skos:prefLabel>자산운용사</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/04">
+	<skos:prefLabel>투자자문사</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/05">
+	<skos:prefLabel>종합금융회사</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/80">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/04"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/04">
+	<skos:prefLabel>여신전문금융업</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/80"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/01">
+	<skos:prefLabel>신용카드사</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/02">
+	<skos:prefLabel>리스사</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/03">
+	<skos:prefLabel>할부금융사</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/04">
+	<skos:prefLabel>신기술금융사</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/80">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/05"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/05">
+	<skos:prefLabel>금융지주회사</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/80"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/80">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/06"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/06">
+	<skos:prefLabel>상호저축은행</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/80"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/80">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/07"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/07">
+	<skos:prefLabel>신용협동조합</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/80"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/01">
+	<skos:prefLabel>지역신협</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/02">
+	<skos:prefLabel>직장신협</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/03">
+	<skos:prefLabel>단체신협</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/80">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/08"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/08">
+	<skos:prefLabel>신탁업</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/80"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/section/01">
+	<skos:prefLabel>부동산신탁회사</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/18">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdf:type rdf:resource="http://schema.org/Organization"/>
+	<ado:categoryCode rdf:datatype="http://www.w3.org/2001/XMLSchema#int">18</ado:categoryCode>
+	<skos:prefLabel>국군조직</skos:prefLabel>
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/01"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/01">
+	<skos:prefLabel>육군</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/18"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/18">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/02"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/02">
+	<skos:prefLabel>해군</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/18"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/18">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/03"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/03">
+	<skos:prefLabel>해병대</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/18"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/18">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/04"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/04">
+	<skos:prefLabel>공군</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/18"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/18">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/05"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/05">
+	<skos:prefLabel>국직부대/ 기관</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/18"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/category/18">
+	<skos:narrower rdf:resource="http://datahub.kr/administrative-organization/division/06"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/administrative-organization/division/06">
+	<skos:prefLabel>기타</skos:prefLabel>
+	<skos:broader rdf:resource="http://datahub.kr/administrative-organization/category/18"/>
+</rdf:Description>
+
+</rdf:RDF>
