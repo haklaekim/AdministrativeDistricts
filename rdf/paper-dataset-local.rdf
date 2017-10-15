@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:schema="http://schema.org/"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:korg="http://datahub.kr/def/korg/"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+<rdf:Description rdf:about="http://datahub.kr/instances/portal/organization/함양경찰서">
+	<korg:orgName>함양경찰서</korg:orgName>
+	<owl:sameAs>http://datahub.kr/instances/korea-adminstrative-organization/1326768</owl:sameAs>
+	<korg:roadNameAddress>경상남도 함양군 함양읍 학사루길 12</korg:roadNameAddress>
+	<schema:telephone>055-963-2113</schema:telephone>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/instances/portal/organization/함양교육지원청">
+	<korg:orgName>함양교육지원청</korg:orgName>
+	<owl:sameAs>http://datahub.kr/instances/korea-adminstrative-organization/9201000</owl:sameAs>
+	<korg:roadNameAddress>경상남도 함양군 함양읍 함양로 1157</korg:roadNameAddress>
+	<schema:telephone>055-960-2702</schema:telephone>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/instances/portal/organization/함양소방서">
+	<korg:orgName>함양소방서</korg:orgName>
+	<owl:sameAs>http://datahub.kr/instances/korea-adminstrative-organization/6480792</owl:sameAs>
+	<korg:roadNameAddress>경상남도 함양군 함양읍 함양로 1179</korg:roadNameAddress>
+	<schema:telephone>055-960-9215</schema:telephone>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/instances/portal/organization/함양군선거관리위원회">
+	<korg:orgName>함양군선거관리위원회</korg:orgName>
+	<owl:sameAs>http://datahub.kr/instances/korea-adminstrative-organization/9760385</owl:sameAs>
+	<korg:roadNameAddress>경상남도 함양군 함양읍 함양로 1043</korg:roadNameAddress>
+	<schema:telephone>055-963-2409</schema:telephone>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/instances/portal/organization/농협중앙회함양군지부">
+	<korg:orgName>농협중앙회함양군지부</korg:orgName>
+	<owl:sameAs>http://datahub.kr/instances/korea-adminstrative-organization/5460000</owl:sameAs>
+	<korg:roadNameAddress>경상남도 함양군 함양읍 함양로 1141</korg:roadNameAddress>
+	<schema:telephone>055-962-3371</schema:telephone>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/instances/portal/organization/경남은행함양지점">
+	<korg:orgName>경남은행함양지점</korg:orgName>
+	<owl:sameAs>http://datahub.kr/instances/korea-adminstrative-organization/P083633</owl:sameAs>
+	<korg:roadNameAddress>경상남도 함양군 함양읍 함양로 1115</korg:roadNameAddress>
+	<schema:telephone>055-962-6891</schema:telephone>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/instances/portal/organization/창원지방법원함양등기소">
+	<korg:orgName>창원지방법원함양등기소</korg:orgName>
+	<owl:sameAs>http://datahub.kr/instances/korea-adminstrative-organization/9740671</owl:sameAs>
+	<korg:roadNameAddress>경상남도 함양군 함양읍 학사루길 8</korg:roadNameAddress>
+	<schema:telephone>055-963-2027</schema:telephone>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/instances/portal/organization/함양우체국">
+	<korg:orgName>함양우체국</korg:orgName>
+	<owl:sameAs>http://datahub.kr/instances/korea-adminstrative-organization/1412923</owl:sameAs>
+	<korg:roadNameAddress>경상남도 함양군 함양읍 학사루길 1</korg:roadNameAddress>
+	<schema:telephone>055-963-2008</schema:telephone>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/instances/portal/organization/함양도서관">
+	<korg:orgName>함양도서관</korg:orgName>
+	<owl:sameAs>http://datahub.kr/instances/korea-adminstrative-organization/9200004</owl:sameAs>
+	<korg:roadNameAddress>경상남도 함양군 함양읍 함양로 1143-1</korg:roadNameAddress>
+	<schema:telephone>055-963-3186</schema:telephone>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/instances/portal/organization/함양신용협동조합">
+	<korg:orgName>함양신용협동조합</korg:orgName>
+	<korg:roadNameAddress>경상남도 함양군 함양읍 고운로 60-1</korg:roadNameAddress>
+	<schema:telephone>055-963-7711</schema:telephone>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/instances/portal/organization/함양군산림조합">
+	<korg:orgName>함양군산림조합</korg:orgName>
+	<owl:sameAs>http://datahub.kr/instances/korea-adminstrative-organization/D438146</owl:sameAs>
+	<korg:roadNameAddress>경상남도 함양군 함양읍 용평2길 22</korg:roadNameAddress>
+	<schema:telephone>055-963-8711</schema:telephone>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/instances/portal/organization/함양축산업협동조합">
+	<korg:orgName>함양축산업협동조합</korg:orgName>
+	<korg:roadNameAddress>경상남도 함양군 함양읍 용평중앙길 7-9</korg:roadNameAddress>
+	<schema:telephone>055-964-0600</schema:telephone>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/instances/portal/organization/함양엽연초생산조합">
+	<korg:orgName>함양엽연초생산조합</korg:orgName>
+	<korg:roadNameAddress>경상남도 함양군 함양읍 함양로 1196</korg:roadNameAddress>
+	<schema:telephone>055-963-2058</schema:telephone>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/instances/portal/organization/한국전력공사함양지점">
+	<korg:orgName>한국전력공사함양지점</korg:orgName>
+	<owl:sameAs>http://datahub.kr/instances/korea-adminstrative-organization/P083633</owl:sameAs>
+	<korg:roadNameAddress>경상남도 함양군 함양읍 함양로 1207</korg:roadNameAddress>
+	<schema:telephone>055-960-2200</schema:telephone>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/instances/portal/organization/KT함양지점">
+	<korg:orgName>KT함양지점</korg:orgName>
+	<korg:roadNameAddress>경상남도 함양군 함양읍 고운로 86</korg:roadNameAddress>
+	<schema:telephone>055-962-0800</schema:telephone>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/instances/portal/organization/%EC%84%9C%EB%B6%80%EC%A7%80%EB%B0%A9%EC%82%B0%EB%A6%BC%EA%B4%80%EB%A6%AC%EC%B2%AD+%ED%95%A8%EC%96%91%EA%B5%AD%EC%9C%A0%EB%A6%BC%EA%B4%80%EB%A6%AC%EC%86%8C">
+	<korg:orgName>서부지방산림관리청 함양국유림관리소</korg:orgName>
+	<owl:sameAs>http://datahub.kr/instances/korea-adminstrative-organization/1400301</owl:sameAs>
+	<korg:roadNameAddress>경상남도 함양군 함양읍 함양로 1072</korg:roadNameAddress>
+	<schema:telephone>055-963-8111</schema:telephone>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/instances/portal/organization/국립농산물품질관리원함양산청출장소">
+	<korg:orgName>국립농산물품질관리원함양산청출장소</korg:orgName>
+	<owl:sameAs>http://datahub.kr/instances/korea-adminstrative-organization/1380632</owl:sameAs>
+	<korg:roadNameAddress>경상남도 함양군 함양읍 영림서길 32</korg:roadNameAddress>
+	<schema:telephone>055-962-2410</schema:telephone>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/instances/portal/organization/국민건강보험공단경남북부지사">
+	<korg:orgName>국민건강보험공단경남북부지사</korg:orgName>
+	<owl:sameAs>http://datahub.kr/instances/korea-adminstrative-organization/D004095</owl:sameAs>
+	<korg:roadNameAddress>경상남도 함양군 함양읍 고운로 83</korg:roadNameAddress>
+	<schema:telephone>055-962-3050</schema:telephone>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/instances/portal/organization/%ED%95%9C%EA%B5%AD%EB%86%8D%EC%96%B4%EC%B4%8C%EA%B3%B5%EC%82%AC+%EA%B1%B0%EC%B0%BD%ED%95%A8%EC%96%91%EC%A7%80%EC%82%AC+%ED%95%A8%EC%96%91%EC%B6%9C%EC%9E%A5%EC%86%8C">
+	<korg:orgName>한국농어촌공사 거창함양지사 함양출장소</korg:orgName>
+	<owl:sameAs>http://datahub.kr/instances/korea-adminstrative-organization/D150554</owl:sameAs>
+	<korg:roadNameAddress>경상남도 함양군 함양읍 함양로 1161</korg:roadNameAddress>
+	<schema:telephone>055-963-2011</schema:telephone>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/instances/portal/organization/대한지적공사울산경남본부함양군지사">
+	<korg:orgName>대한지적공사울산경남본부함양군지사</korg:orgName>
+	<owl:sameAs>http://datahub.kr/instances/korea-adminstrative-organization/D056621</owl:sameAs>
+	<korg:roadNameAddress>경상남도 함양군 함양읍 함양남서로 1219</korg:roadNameAddress>
+	<schema:telephone>055-963-3131</schema:telephone>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/instances/portal/organization/덕유교육원">
+	<korg:orgName>덕유교육원</korg:orgName>
+	<owl:sameAs>http://datahub.kr/instances/korea-adminstrative-organization/9010023</owl:sameAs>
+	<korg:roadNameAddress>경상남도 함양군 서상면 덕유월성로 547-150</korg:roadNameAddress>
+	<schema:telephone>055-963-0188</schema:telephone>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://datahub.kr/instances/portal/organization/환경시설관리공사함양영업소">
+	<korg:orgName>환경시설관리공사함양영업소</korg:orgName>
+	<korg:roadNameAddress>경상남도 함양군 함양읍 하림강변길 187</korg:roadNameAddress>
+	<schema:telephone>055-962-7107</schema:telephone>
+</rdf:Description>
+
+</rdf:RDF>
