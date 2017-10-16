@@ -1,0 +1,824 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:schema="http://schema.org/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:ad="http://lod.datahub.kr/def/ad/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:cf="http://lod.datahub.kr/def/cf/"
+	xmlns:dcterms="http://purl.org/dc/terms/">
+
+<rdf:Description rdf:about="http://lod.datahub.kr/id/ad/11-Seoul-teukbyeol-si">
+	<rdf:type rdf:resource="http://schema.org/AdministrativeArea"/>
+	<rdf:type rdf:resource="http://lod.datahub.kr/def/ad/KoreaAdministrativeDivision"/>
+	<rdf:type rdf:resource="http://lod.datahub.kr/def/ad/Teukbyeol-si"/>
+	<schema:name xml:lang="ko">서울특별시</schema:name>
+	<schema:name xml:lang="ch">서울特別市</schema:name>
+	<schema:name xml:lang="en">Seoul special city</schema:name>
+	<schema:name xml:lang="ro">Seoul Teukbyeol-Si</schema:name>
+	<ad:subDivision>25구 424동</ad:subDivision>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ko.wikipedia.org/wiki/박원순">
+	<foaf:name xml:lang="ko">박원순</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/id/ad/11-Seoul-teukbyeol-si">
+	<ad:mayor rdf:resource="http://ko.wikipedia.org/wiki/박원순"/>
+	<ad:population>10249679</ad:population>
+	<ad:area>605.21</ad:area>
+	<ad:numberOfHousehold>4192752</ad:numberOfHousehold>
+	<ad:numberOfTong>12710</ad:numberOfTong>
+	<ad:numberOfBan>98672 </ad:numberOfBan>
+	<foaf:primaryTopic xml:lang="en">http://en.wikipedia.org/wiki/Seoul</foaf:primaryTopic>
+	<foaf:primaryTopic xml:lang="ko">http://ko.wikipedia.org/wiki/서울특별시</foaf:primaryTopic>
+	<foaf:name>서울특별시</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/id/ad/Seoul-teukbyeol-si-office">
+	<rdf:type rdf:resource="http://schema.org/GovernmentOffice"/>
+	<schema:address xml:lang="ko">서울시 중구 세종대로 110</schema:address>
+	<schema:url>http://www.seoul.go.kr</schema:url>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/id/ad/11-Seoul-teukbyeol-si">
+	<ad:office rdf:resource="http://lod.datahub.kr/id/ad/Seoul-teukbyeol-si-office"/>
+	<foaf:name xml:lang="ko">서울특별시</foaf:name>
+	<foaf:name xml:lang="ch">서울特別市</foaf:name>
+	<foaf:name xml:lang="en">Seoul special city</foaf:name>
+	<foaf:name xml:lang="ro">Seoul Teukbyeol-Si</foaf:name>
+	<rdfs:label xml:lang="ko">서울특별시</rdfs:label>
+	<rdfs:label xml:lang="ch">서울特別市</rdfs:label>
+	<rdfs:label xml:lang="en">Seoul special city</rdfs:label>
+	<rdfs:label xml:lang="ro">Seoul Teukbyeol-Si</rdfs:label>
+	<dbpedia-owl:part rdf:resource="http://dbpedia.org/resource/South_Korea"/>
+	<ad:divisionCode>11</ad:divisionCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/id/ad/21-Busan-gwangyeok-si">
+	<rdf:type rdf:resource="http://schema.org/AdministrativeArea"/>
+	<rdf:type rdf:resource="http://lod.datahub.kr/def/ad/KoreaAdministrativeDivision"/>
+	<rdf:type rdf:resource="http://lod.datahub.kr/def/ad/Gwangyeok-si"/>
+	<schema:name xml:lang="ko">부산광역시</schema:name>
+	<schema:name xml:lang="ch">釜山廣域市</schema:name>
+	<schema:name xml:lang="en">Busan metropolitan city</schema:name>
+	<schema:name xml:lang="ro">Busan Gwangyeok-Si</schema:name>
+	<ad:subDivision>15구 1군 2읍 3면 209동</ad:subDivision>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ko.wikipedia.org/wiki/허남식">
+	<foaf:name xml:lang="ko">허남식</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/id/ad/21-Busan-gwangyeok-si">
+	<ad:mayor rdf:resource="http://ko.wikipedia.org/wiki/허남식"/>
+	<ad:population>3550963</ad:population>
+	<ad:area>768.43</ad:area>
+	<ad:numberOfHousehold>1381257</ad:numberOfHousehold>
+	<ad:numberOfTong>4327</ad:numberOfTong>
+	<ad:numberOfRi>145 </ad:numberOfRi>
+	<ad:numberOfBan>26231</ad:numberOfBan>
+	<foaf:primaryTopic xml:lang="en">http://en.wikipedia.org/wiki/Busan</foaf:primaryTopic>
+	<foaf:primaryTopic xml:lang="ko">http://ko.wikipedia.org/wiki/부산광역시</foaf:primaryTopic>
+	<foaf:name>부산광역시</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/id/ad/Busan-gwangyeok-si-office">
+	<rdf:type rdf:resource="http://schema.org/GovernmentOffice"/>
+	<schema:address xml:lang="ko">부산광역시 연제구 중앙대로 1001 (연산5동 1000)</schema:address>
+	<schema:url>http://www.busan.go.kr</schema:url>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/id/ad/21-Busan-gwangyeok-si">
+	<ad:office rdf:resource="http://lod.datahub.kr/id/ad/Busan-gwangyeok-si-office"/>
+	<foaf:name xml:lang="ko">부산광역시</foaf:name>
+	<foaf:name xml:lang="ch">釜山廣域市</foaf:name>
+	<foaf:name xml:lang="en">Busan metropolitan city</foaf:name>
+	<foaf:name xml:lang="ro">Busan Gwangyeok-Si</foaf:name>
+	<rdfs:label xml:lang="ko">부산광역시</rdfs:label>
+	<rdfs:label xml:lang="ch">釜山廣域市</rdfs:label>
+	<rdfs:label xml:lang="en">Busan metropolitan city</rdfs:label>
+	<rdfs:label xml:lang="ro">Busan Gwangyeok-Si</rdfs:label>
+	<dbpedia-owl:part rdf:resource="http://dbpedia.org/resource/South_Korea"/>
+	<ad:divisionCode>21</ad:divisionCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/id/ad/22-Daegu-gwangyeok-si">
+	<rdf:type rdf:resource="http://schema.org/AdministrativeArea"/>
+	<rdf:type rdf:resource="http://lod.datahub.kr/def/ad/KoreaAdministrativeDivision"/>
+	<rdf:type rdf:resource="http://lod.datahub.kr/def/ad/Gwangyeok-si"/>
+	<schema:name xml:lang="ko">대구광역시</schema:name>
+	<schema:name xml:lang="ch">大邱廣域市</schema:name>
+	<schema:name xml:lang="en">Daegu metropolitan city</schema:name>
+	<schema:name xml:lang="ro">Daegu Gwangyeok-Si</schema:name>
+	<ad:subDivision>7구 1군 3읍 6면 130동</ad:subDivision>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ko.wikipedia.org/wiki/김범일_(1950년)">
+	<foaf:name xml:lang="ko">김범일</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/id/ad/22-Daegu-gwangyeok-si">
+	<ad:mayor rdf:resource="http://ko.wikipedia.org/wiki/김범일_(1950년)"/>
+	<ad:population>2507271</ad:population>
+	<ad:area>883.68</ad:area>
+	<ad:numberOfHousehold>940770</ad:numberOfHousehold>
+	<ad:numberOfTong>3239</ad:numberOfTong>
+	<ad:numberOfRi>251 </ad:numberOfRi>
+	<ad:numberOfBan>22959</ad:numberOfBan>
+	<foaf:primaryTopic xml:lang="en">http://en.wikipedia.org/wiki/Daegu</foaf:primaryTopic>
+	<foaf:primaryTopic xml:lang="ko">http://ko.wikipedia.org/wiki/대구광역시</foaf:primaryTopic>
+	<foaf:name>대구광역시</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/id/ad/Daegu-gwangyeok-si-office">
+	<rdf:type rdf:resource="http://schema.org/GovernmentOffice"/>
+	<schema:address xml:lang="ko">대구 중구 공평로 130 (동인동1가 1)</schema:address>
+	<schema:url>http://www.daegu.go.kr/</schema:url>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/id/ad/22-Daegu-gwangyeok-si">
+	<ad:office rdf:resource="http://lod.datahub.kr/id/ad/Daegu-gwangyeok-si-office"/>
+	<foaf:name xml:lang="ko">대구광역시</foaf:name>
+	<foaf:name xml:lang="ch">大邱廣域市</foaf:name>
+	<foaf:name xml:lang="en">Daegu metropolitan city</foaf:name>
+	<foaf:name xml:lang="ro">Daegu Gwangyeok-Si</foaf:name>
+	<rdfs:label xml:lang="ko">대구광역시</rdfs:label>
+	<rdfs:label xml:lang="ch">大邱廣域市</rdfs:label>
+	<rdfs:label xml:lang="en">Daegu metropolitan city</rdfs:label>
+	<rdfs:label xml:lang="ro">Daegu Gwangyeok-Si</rdfs:label>
+	<dbpedia-owl:part rdf:resource="http://dbpedia.org/resource/South_Korea"/>
+	<ad:divisionCode>22</ad:divisionCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/id/ad/23-Incheon-gwangyeok-si">
+	<rdf:type rdf:resource="http://schema.org/AdministrativeArea"/>
+	<rdf:type rdf:resource="http://lod.datahub.kr/def/ad/KoreaAdministrativeDivision"/>
+	<rdf:type rdf:resource="http://lod.datahub.kr/def/ad/Gwangyeok-si"/>
+	<schema:name xml:lang="ko">인천광역시</schema:name>
+	<schema:name xml:lang="ch">仁川廣域市</schema:name>
+	<schema:name xml:lang="en">Incheon metropolitan city</schema:name>
+	<schema:name xml:lang="ro">Incheon Gwangyeok-Si</schema:name>
+	<ad:subDivision>8구 2군 1읍 19면 125동</ad:subDivision>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ko.wikipedia.org/wiki/송영길">
+	<foaf:name xml:lang="ko">송영길</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/id/ad/23-Incheon-gwangyeok-si">
+	<ad:mayor rdf:resource="http://ko.wikipedia.org/wiki/송영길"/>
+	<ad:population>2801274</ad:population>
+	<ad:area>1032.41</ad:area>
+	<ad:numberOfHousehold>1077563</ad:numberOfHousehold>
+	<ad:numberOfTong>3774</ad:numberOfTong>
+	<ad:numberOfRi>261</ad:numberOfRi>
+	<ad:numberOfBan>21474</ad:numberOfBan>
+	<foaf:primaryTopic xml:lang="en">http://en.wikipedia.org/wiki/Incheon</foaf:primaryTopic>
+	<foaf:primaryTopic xml:lang="ko">http://ko.wikipedia.org/wiki/인천광역시</foaf:primaryTopic>
+	<foaf:name>인천광역시</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/id/ad/Incheon-gwangyeok-si-office">
+	<rdf:type rdf:resource="http://schema.org/GovernmentOffice"/>
+	<schema:address xml:lang="ko">인천광역시 남동구 정각로 29 (구월동 1138)</schema:address>
+	<schema:url>http://www.incheon.go.kr/</schema:url>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/id/ad/23-Incheon-gwangyeok-si">
+	<ad:office rdf:resource="http://lod.datahub.kr/id/ad/Incheon-gwangyeok-si-office"/>
+	<foaf:name xml:lang="ko">인천광역시</foaf:name>
+	<foaf:name xml:lang="ch">仁川廣域市</foaf:name>
+	<foaf:name xml:lang="en">Incheon metropolitan city</foaf:name>
+	<foaf:name xml:lang="ro">Incheon Gwangyeok-Si</foaf:name>
+	<rdfs:label xml:lang="ko">인천광역시</rdfs:label>
+	<rdfs:label xml:lang="ch">仁川廣域市</rdfs:label>
+	<rdfs:label xml:lang="en">Incheon metropolitan city</rdfs:label>
+	<rdfs:label xml:lang="ro">Incheon Gwangyeok-Si</rdfs:label>
+	<dbpedia-owl:part rdf:resource="http://dbpedia.org/resource/South_Korea"/>
+	<ad:divisionCode>23</ad:divisionCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/id/ad/24-Gwangju-gwangyeok-si">
+	<rdf:type rdf:resource="http://schema.org/AdministrativeArea"/>
+	<rdf:type rdf:resource="http://lod.datahub.kr/def/ad/KoreaAdministrativeDivision"/>
+	<rdf:type rdf:resource="http://lod.datahub.kr/def/ad/Gwangyeok-si"/>
+	<schema:name xml:lang="ko">광주광역시</schema:name>
+	<schema:name xml:lang="ch">光州廣域市</schema:name>
+	<schema:name xml:lang="en">Gwangju metropolitan city</schema:name>
+	<schema:name xml:lang="ro">Gwangju Gwangyeok-Si</schema:name>
+	<ad:subDivision>5구 94동</ad:subDivision>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ko.wikipedia.org/wiki/강운태">
+	<foaf:name xml:lang="ko">강운태</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/id/ad/24-Gwangju-gwangyeok-si">
+	<ad:mayor rdf:resource="http://ko.wikipedia.org/wiki/강운태"/>
+	<ad:population>1463464</ad:population>
+	<ad:area>501.24</ad:area>
+	<ad:numberOfHousehold>549105</ad:numberOfHousehold>
+	<ad:numberOfTong>2192</ad:numberOfTong>
+	<ad:numberOfBan>10800</ad:numberOfBan>
+	<foaf:primaryTopic xml:lang="en">http://en.wikipedia.org/wiki/Gwangju</foaf:primaryTopic>
+	<foaf:primaryTopic xml:lang="ko">http://ko.wikipedia.org/wiki/광주광역시</foaf:primaryTopic>
+	<foaf:name>광주광역시</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/id/ad/Gwangju-gwangyeok-si-office">
+	<rdf:type rdf:resource="http://schema.org/GovernmentOffice"/>
+	<schema:address xml:lang="ko">광주광역시 서구 내방로 111 (치평동 1200)</schema:address>
+	<schema:url>http://www.gwangju.go.kr/</schema:url>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/id/ad/24-Gwangju-gwangyeok-si">
+	<ad:office rdf:resource="http://lod.datahub.kr/id/ad/Gwangju-gwangyeok-si-office"/>
+	<foaf:name xml:lang="ko">광주광역시</foaf:name>
+	<foaf:name xml:lang="ch">光州廣域市</foaf:name>
+	<foaf:name xml:lang="en">Gwangju metropolitan city</foaf:name>
+	<foaf:name xml:lang="ro">Gwangju Gwangyeok-Si</foaf:name>
+	<rdfs:label xml:lang="ko">광주광역시</rdfs:label>
+	<rdfs:label xml:lang="ch">光州廣域市</rdfs:label>
+	<rdfs:label xml:lang="en">Gwangju metropolitan city</rdfs:label>
+	<rdfs:label xml:lang="ro">Gwangju Gwangyeok-Si</rdfs:label>
+	<dbpedia-owl:part rdf:resource="http://dbpedia.org/resource/South_Korea"/>
+	<ad:divisionCode>24</ad:divisionCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/id/ad/25-Daejeon-gwangyeok-si">
+	<rdf:type rdf:resource="http://schema.org/AdministrativeArea"/>
+	<rdf:type rdf:resource="http://lod.datahub.kr/def/ad/KoreaAdministrativeDivision"/>
+	<rdf:type rdf:resource="http://lod.datahub.kr/def/ad/Gwangyeok-si"/>
+	<schema:name xml:lang="ko">대전광역시</schema:name>
+	<schema:name xml:lang="ch">大田廣域市</schema:name>
+	<schema:name xml:lang="en">Daejeon metropolitan city</schema:name>
+	<schema:name xml:lang="ro">Daejeon Gwangyeok-Si</schema:name>
+	<ad:subDivision>5구 77동</ad:subDivision>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ko.wikipedia.org/wiki/염홍철">
+	<foaf:name xml:lang="ko">염홍철</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/id/ad/25-Daejeon-gwangyeok-si">
+	<ad:mayor rdf:resource="http://ko.wikipedia.org/wiki/염홍철"/>
+	<ad:population>1515603</ad:population>
+	<ad:area>539.97</ad:area>
+	<ad:numberOfHousehold>566324</ad:numberOfHousehold>
+	<ad:numberOfTong>2399</ad:numberOfTong>
+	<ad:numberOfBan>13415</ad:numberOfBan>
+	<foaf:primaryTopic xml:lang="en">http://en.wikipedia.org/wiki/Daejeon</foaf:primaryTopic>
+	<foaf:primaryTopic xml:lang="ko">http://ko.wikipedia.org/wiki/대전광역시</foaf:primaryTopic>
+	<foaf:name>대전광역시</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/id/ad/Daejeon-gwangyeok-si-office">
+	<rdf:type rdf:resource="http://schema.org/GovernmentOffice"/>
+	<schema:address xml:lang="ko">대전광역시 서구 둔산로 100 (둔산1동 1420)</schema:address>
+	<schema:url>http://www.daejeon.go.kr</schema:url>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/id/ad/25-Daejeon-gwangyeok-si">
+	<ad:office rdf:resource="http://lod.datahub.kr/id/ad/Daejeon-gwangyeok-si-office"/>
+	<foaf:name xml:lang="ko">대전광역시</foaf:name>
+	<foaf:name xml:lang="ch">大田廣域市</foaf:name>
+	<foaf:name xml:lang="en">Daejeon metropolitan city</foaf:name>
+	<foaf:name xml:lang="ro">Daejeon Gwangyeok-Si</foaf:name>
+	<rdfs:label xml:lang="ko">대전광역시</rdfs:label>
+	<rdfs:label xml:lang="ch">大田廣域市</rdfs:label>
+	<rdfs:label xml:lang="en">Daejeon metropolitan city</rdfs:label>
+	<rdfs:label xml:lang="ro">Daejeon Gwangyeok-Si</rdfs:label>
+	<dbpedia-owl:part rdf:resource="http://dbpedia.org/resource/South_Korea"/>
+	<ad:divisionCode>25</ad:divisionCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/id/ad/26-Ulsan-gwangyeok-si">
+	<rdf:type rdf:resource="http://schema.org/AdministrativeArea"/>
+	<rdf:type rdf:resource="http://lod.datahub.kr/def/ad/KoreaAdministrativeDivision"/>
+	<rdf:type rdf:resource="http://lod.datahub.kr/def/ad/Gwangyeok-si"/>
+	<schema:name xml:lang="ko">울산광역시</schema:name>
+	<schema:name xml:lang="ch">蔚山廣域市</schema:name>
+	<schema:name xml:lang="en">Ulsan metropolitan city</schema:name>
+	<schema:name xml:lang="ro">Ulsan Gwangyeok-Si</schema:name>
+	<ad:subDivision>4구 1군 4읍 8면 44동</ad:subDivision>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ko.wikipedia.org/wiki/박맹우_(1951년)">
+	<foaf:name xml:lang="ko">박맹우</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/id/ad/26-Ulsan-gwangyeok-si">
+	<ad:mayor rdf:resource="http://ko.wikipedia.org/wiki/박맹우_(1951년)"/>
+	<ad:population>1135494</ad:population>
+	<ad:area>1060.0</ad:area>
+	<ad:numberOfHousehold>412561</ad:numberOfHousehold>
+	<ad:numberOfTong>1114</ad:numberOfTong>
+	<ad:numberOfRi>343 </ad:numberOfRi>
+	<ad:numberOfBan>9977</ad:numberOfBan>
+	<foaf:primaryTopic xml:lang="en">http://en.wikipedia.org/wiki/Ulsan</foaf:primaryTopic>
+	<foaf:primaryTopic xml:lang="ko">http://ko.wikipedia.org/wiki/울산광역시</foaf:primaryTopic>
+	<foaf:name>울산광역시</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/id/ad/Ulsan-gwangyeok-si-office">
+	<rdf:type rdf:resource="http://schema.org/GovernmentOffice"/>
+	<schema:address xml:lang="ko">울산광역시 남구 중앙로 182 (신정동 646-4)</schema:address>
+	<schema:url>http://www.ulsan.go.kr/</schema:url>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/id/ad/26-Ulsan-gwangyeok-si">
+	<ad:office rdf:resource="http://lod.datahub.kr/id/ad/Ulsan-gwangyeok-si-office"/>
+	<foaf:name xml:lang="ko">울산광역시</foaf:name>
+	<foaf:name xml:lang="ch">蔚山廣域市</foaf:name>
+	<foaf:name xml:lang="en">Ulsan metropolitan city</foaf:name>
+	<foaf:name xml:lang="ro">Ulsan Gwangyeok-Si</foaf:name>
+	<rdfs:label xml:lang="ko">울산광역시</rdfs:label>
+	<rdfs:label xml:lang="ch">蔚山廣域市</rdfs:label>
+	<rdfs:label xml:lang="en">Ulsan metropolitan city</rdfs:label>
+	<rdfs:label xml:lang="ro">Ulsan Gwangyeok-Si</rdfs:label>
+	<dbpedia-owl:part rdf:resource="http://dbpedia.org/resource/South_Korea"/>
+	<ad:divisionCode>26</ad:divisionCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/id/ad/31-Gyeonggi-do">
+	<rdf:type rdf:resource="http://schema.org/AdministrativeArea"/>
+	<rdf:type rdf:resource="http://lod.datahub.kr/def/ad/KoreaAdministrativeDivision"/>
+	<rdf:type rdf:resource="http://lod.datahub.kr/def/ad/Do"/>
+	<schema:name xml:lang="ko">경기도</schema:name>
+	<schema:name xml:lang="ch">京畿道</schema:name>
+	<schema:name xml:lang="en">Gyeonggi Province</schema:name>
+	<schema:name xml:lang="ro">Gyeonggi Do</schema:name>
+	<ad:subDivision>27시 4군 32읍 109면 404동</ad:subDivision>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ko.wikipedia.org/wiki/김문수_(1951년)">
+	<foaf:name xml:lang="ko">김문수</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/id/ad/31-Gyeonggi-do">
+	<ad:governor rdf:resource="http://ko.wikipedia.org/wiki/김문수_(1951년)"/>
+	<ad:population>11937415</ad:population>
+	<ad:area>10170.01</ad:area>
+	<ad:numberOfHousehold>4579405</ad:numberOfHousehold>
+	<ad:numberOfTong>11169</ad:numberOfTong>
+	<ad:numberOfRi>4,022 </ad:numberOfRi>
+	<ad:numberOfBan>87374</ad:numberOfBan>
+	<foaf:primaryTopic xml:lang="en">http://en.wikipedia.org/wiki/Gyeonggi_Province</foaf:primaryTopic>
+	<foaf:primaryTopic xml:lang="ko">http://ko.wikipedia.org/wiki/경기도</foaf:primaryTopic>
+	<foaf:name>경기도</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/id/ad/Gyeonggi-do-office">
+	<rdf:type rdf:resource="http://schema.org/GovernmentOffice"/>
+	<schema:address xml:lang="ko">경기도 수원시 팔달구 효원로 1 (매산로3가 1-1)</schema:address>
+	<schema:url>http://www.gg.go.kr</schema:url>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/id/ad/31-Gyeonggi-do">
+	<ad:office rdf:resource="http://lod.datahub.kr/id/ad/Gyeonggi-do-office"/>
+	<foaf:name xml:lang="ko">경기도</foaf:name>
+	<foaf:name xml:lang="ch">京畿道</foaf:name>
+	<foaf:name xml:lang="en">Gyeonggi Province</foaf:name>
+	<foaf:name xml:lang="ro">Gyeonggi Do</foaf:name>
+	<rdfs:label xml:lang="ko">경기도</rdfs:label>
+	<rdfs:label xml:lang="ch">京畿道</rdfs:label>
+	<rdfs:label xml:lang="en">Gyeonggi Province</rdfs:label>
+	<rdfs:label xml:lang="ro">Gyeonggi Do</rdfs:label>
+	<dbpedia-owl:part rdf:resource="http://dbpedia.org/resource/South_Korea"/>
+	<ad:divisionCode>31</ad:divisionCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/id/ad/32-Gangwon-do">
+	<rdf:type rdf:resource="http://schema.org/AdministrativeArea"/>
+	<rdf:type rdf:resource="http://lod.datahub.kr/def/ad/KoreaAdministrativeDivision"/>
+	<rdf:type rdf:resource="http://lod.datahub.kr/def/ad/Do"/>
+	<schema:name xml:lang="ko">강원도</schema:name>
+	<schema:name xml:lang="ch">江原道</schema:name>
+	<schema:name xml:lang="en">Gangwon Province</schema:name>
+	<schema:name xml:lang="ro">Gangwon Do</schema:name>
+	<ad:subDivision>7시 11군 24읍 95면 74동</ad:subDivision>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ko.wikipedia.org/wiki/최문순">
+	<foaf:name xml:lang="ko">최문순</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/id/ad/32-Gangwon-do">
+	<ad:governor rdf:resource="http://ko.wikipedia.org/wiki/최문순"/>
+	<ad:population>1536448</ad:population>
+	<ad:area>16866.39</ad:area>
+	<ad:numberOfHousehold>648649</ad:numberOfHousehold>
+	<ad:numberOfTong>1909</ad:numberOfTong>
+	<ad:numberOfRi>2,201 </ad:numberOfRi>
+	<ad:numberOfBan>21304</ad:numberOfBan>
+	<foaf:primaryTopic xml:lang="en">http://en.wikipedia.org/wiki/Gangwon_Province_(South_Korea)</foaf:primaryTopic>
+	<foaf:primaryTopic xml:lang="ko">http://ko.wikipedia.org/wiki/강원도</foaf:primaryTopic>
+	<foaf:name>강원도</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/id/ad/Gangwon-do-office">
+	<rdf:type rdf:resource="http://schema.org/GovernmentOffice"/>
+	<schema:address xml:lang="ko">강원도 춘천시 중앙로 200 (봉의동 15-1)</schema:address>
+	<schema:url>http://www.provin.gangwon.kr/</schema:url>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/id/ad/32-Gangwon-do">
+	<ad:office rdf:resource="http://lod.datahub.kr/id/ad/Gangwon-do-office"/>
+	<foaf:name xml:lang="ko">강원도</foaf:name>
+	<foaf:name xml:lang="ch">江原道</foaf:name>
+	<foaf:name xml:lang="en">Gangwon Province</foaf:name>
+	<foaf:name xml:lang="ro">Gangwon Do</foaf:name>
+	<rdfs:label xml:lang="ko">강원도</rdfs:label>
+	<rdfs:label xml:lang="ch">江原道</rdfs:label>
+	<rdfs:label xml:lang="en">Gangwon Province</rdfs:label>
+	<rdfs:label xml:lang="ro">Gangwon Do</rdfs:label>
+	<dbpedia-owl:part rdf:resource="http://dbpedia.org/resource/South_Korea"/>
+	<ad:divisionCode>32</ad:divisionCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/id/ad/33-Chungcheong-buk-do">
+	<rdf:type rdf:resource="http://schema.org/AdministrativeArea"/>
+	<rdf:type rdf:resource="http://lod.datahub.kr/def/ad/KoreaAdministrativeDivision"/>
+	<rdf:type rdf:resource="http://lod.datahub.kr/def/ad/Do"/>
+	<schema:name xml:lang="ko">충청북도</schema:name>
+	<schema:name xml:lang="ch">忠清北道</schema:name>
+	<schema:name xml:lang="en">North Chungcheong Province</schema:name>
+	<schema:name xml:lang="ro">Chungcheong Buk-Do</schema:name>
+	<ad:subDivision>3시 9군 15읍 88면 51동</ad:subDivision>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ko.wikipedia.org/wiki/이시종">
+	<foaf:name xml:lang="ko">이시종</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/id/ad/33-Chungcheong-buk-do">
+	<ad:governor rdf:resource="http://ko.wikipedia.org/wiki/이시종"/>
+	<ad:population>1562903</ad:population>
+	<ad:area>7433.26</ad:area>
+	<ad:numberOfHousehold>627006</ad:numberOfHousehold>
+	<ad:numberOfTong>1737</ad:numberOfTong>
+	<ad:numberOfRi>2,915</ad:numberOfRi>
+	<ad:numberOfBan>18580</ad:numberOfBan>
+	<foaf:primaryTopic xml:lang="en">http://en.wikipedia.org/wiki/North_Chungcheong_Province</foaf:primaryTopic>
+	<foaf:primaryTopic xml:lang="ko">http://ko.wikipedia.org/wiki/충청북도</foaf:primaryTopic>
+	<foaf:name>충청북도</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/id/ad/Chungcheong-buk-do-office">
+	<rdf:type rdf:resource="http://schema.org/GovernmentOffice"/>
+	<schema:address xml:lang="ko">충청북도 청주시 상당구 상당로 82 (봉의동 15-1) </schema:address>
+	<schema:url>http://www.cb21.net</schema:url>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/id/ad/33-Chungcheong-buk-do">
+	<ad:office rdf:resource="http://lod.datahub.kr/id/ad/Chungcheong-buk-do-office"/>
+	<foaf:name xml:lang="ko">충청북도</foaf:name>
+	<foaf:name xml:lang="ch">忠清北道</foaf:name>
+	<foaf:name xml:lang="en">North Chungcheong Province</foaf:name>
+	<foaf:name xml:lang="ro">Chungcheong Buk-Do</foaf:name>
+	<rdfs:label xml:lang="ko">충청북도</rdfs:label>
+	<rdfs:label xml:lang="ch">忠清北道</rdfs:label>
+	<rdfs:label xml:lang="en">North Chungcheong Province</rdfs:label>
+	<rdfs:label xml:lang="ro">Chungcheong Buk-Do</rdfs:label>
+	<dbpedia-owl:part rdf:resource="http://dbpedia.org/resource/South_Korea"/>
+	<ad:divisionCode>33</ad:divisionCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/id/ad/34-Chungcheong-nam-do">
+	<rdf:type rdf:resource="http://schema.org/AdministrativeArea"/>
+	<rdf:type rdf:resource="http://lod.datahub.kr/def/ad/KoreaAdministrativeDivision"/>
+	<rdf:type rdf:resource="http://lod.datahub.kr/def/ad/Do"/>
+	<schema:name xml:lang="ko">충청남도</schema:name>
+	<schema:name xml:lang="ch">忠清南道</schema:name>
+	<schema:name xml:lang="en">South Chungcheong Province</schema:name>
+	<schema:name xml:lang="ro">Chungcheong Nam-Do</schema:name>
+	<ad:subDivision>8시 8군 25읍 145면 43동</ad:subDivision>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ko.wikipedia.org/wiki/안희정">
+	<foaf:name xml:lang="ko">안희정</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/id/ad/34-Chungcheong-nam-do">
+	<ad:governor rdf:resource="http://ko.wikipedia.org/wiki/안희정"/>
+	<ad:population>2101284</ad:population>
+	<ad:area>8629.92</ad:area>
+	<ad:numberOfHousehold>868768</ad:numberOfHousehold>
+	<ad:numberOfTong>1139</ad:numberOfTong>
+	<ad:numberOfRi>4,529</ad:numberOfRi>
+	<ad:numberOfBan>25181</ad:numberOfBan>
+	<foaf:primaryTopic xml:lang="en">http://en.wikipedia.org/wiki/South_Chungcheong_Province</foaf:primaryTopic>
+	<foaf:primaryTopic xml:lang="ko">http://ko.wikipedia.org/wiki/충청남도</foaf:primaryTopic>
+	<foaf:name>충청남도</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/id/ad/Chungcheong-nam-do-office">
+	<rdf:type rdf:resource="http://schema.org/GovernmentOffice"/>
+	<schema:address xml:lang="ko">충청남도 홍성군 홍북면 충남대로 21</schema:address>
+	<schema:url>http://www.chungnam.net</schema:url>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/id/ad/34-Chungcheong-nam-do">
+	<ad:office rdf:resource="http://lod.datahub.kr/id/ad/Chungcheong-nam-do-office"/>
+	<foaf:name xml:lang="ko">충청남도</foaf:name>
+	<foaf:name xml:lang="ch">忠清南道</foaf:name>
+	<foaf:name xml:lang="en">South Chungcheong Province</foaf:name>
+	<foaf:name xml:lang="ro">Chungcheong Nam-Do</foaf:name>
+	<rdfs:label xml:lang="ko">충청남도</rdfs:label>
+	<rdfs:label xml:lang="ch">忠清南道</rdfs:label>
+	<rdfs:label xml:lang="en">South Chungcheong Province</rdfs:label>
+	<rdfs:label xml:lang="ro">Chungcheong Nam-Do</rdfs:label>
+	<dbpedia-owl:part rdf:resource="http://dbpedia.org/resource/South_Korea"/>
+	<ad:divisionCode>34</ad:divisionCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/id/ad/35-Jeolla-buk-do">
+	<rdf:type rdf:resource="http://schema.org/AdministrativeArea"/>
+	<rdf:type rdf:resource="http://lod.datahub.kr/def/ad/KoreaAdministrativeDivision"/>
+	<rdf:type rdf:resource="http://lod.datahub.kr/def/ad/Do"/>
+	<schema:name xml:lang="ko">전라북도</schema:name>
+	<schema:name xml:lang="ch">全羅北道</schema:name>
+	<schema:name xml:lang="en">North Jeolla Province</schema:name>
+	<schema:name xml:lang="ro">Jeolla Buk-Do</schema:name>
+	<ad:subDivision>6시 8군 14읍 145면 82동</ad:subDivision>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ko.wikipedia.org/wiki/김완주">
+	<foaf:name xml:lang="ko">김완주</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/id/ad/35-Jeolla-buk-do">
+	<ad:governor rdf:resource="http://ko.wikipedia.org/wiki/김완주"/>
+	<ad:population>1874031</ad:population>
+	<ad:area>8067.23</ad:area>
+	<ad:numberOfHousehold>754479</ad:numberOfHousehold>
+	<ad:numberOfTong>2849</ad:numberOfTong>
+	<ad:numberOfRi>5,117</ad:numberOfRi>
+	<ad:numberOfBan>23883</ad:numberOfBan>
+	<foaf:primaryTopic xml:lang="en">http://en.wikipedia.org/wiki/North_Jeolla_Province</foaf:primaryTopic>
+	<foaf:primaryTopic xml:lang="ko">http://ko.wikipedia.org/wiki/전라북도</foaf:primaryTopic>
+	<foaf:name>전라북도</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/id/ad/Jeolla-buk-do-office">
+	<rdf:type rdf:resource="http://schema.org/GovernmentOffice"/>
+	<schema:address xml:lang="ko">전라북도 전주시 완산구 효자로 225 (효자동3가 1)</schema:address>
+	<schema:url>http://www.jeonbuk.go.kr</schema:url>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/id/ad/35-Jeolla-buk-do">
+	<ad:office rdf:resource="http://lod.datahub.kr/id/ad/Jeolla-buk-do-office"/>
+	<foaf:name xml:lang="ko">전라북도</foaf:name>
+	<foaf:name xml:lang="ch">全羅北道</foaf:name>
+	<foaf:name xml:lang="en">North Jeolla Province</foaf:name>
+	<foaf:name xml:lang="ro">Jeolla Buk-Do</foaf:name>
+	<rdfs:label xml:lang="ko">전라북도</rdfs:label>
+	<rdfs:label xml:lang="ch">全羅北道</rdfs:label>
+	<rdfs:label xml:lang="en">North Jeolla Province</rdfs:label>
+	<rdfs:label xml:lang="ro">Jeolla Buk-Do</rdfs:label>
+	<dbpedia-owl:part rdf:resource="http://dbpedia.org/resource/South_Korea"/>
+	<ad:divisionCode>35</ad:divisionCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/id/ad/36-Jeolla-nam-do">
+	<rdf:type rdf:resource="http://schema.org/AdministrativeArea"/>
+	<rdf:type rdf:resource="http://lod.datahub.kr/def/ad/KoreaAdministrativeDivision"/>
+	<rdf:type rdf:resource="http://lod.datahub.kr/def/ad/Do"/>
+	<schema:name xml:lang="ko">전라남도</schema:name>
+	<schema:name xml:lang="ch">全羅南道</schema:name>
+	<schema:name xml:lang="en">South Jeolla Province</schema:name>
+	<schema:name xml:lang="ro">Jeolla Nam-Do</schema:name>
+	<ad:subDivision>5시 17군 33읍 196면 66동</ad:subDivision>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ko.wikipedia.org/wiki/박준영_(1946년)">
+	<foaf:name xml:lang="ko">박준영</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/id/ad/36-Jeolla-nam-do">
+	<ad:governor rdf:resource="http://ko.wikipedia.org/wiki/박준영_(1946년)"/>
+	<ad:population>1914339</ad:population>
+	<ad:area>12252.46</ad:area>
+	<ad:numberOfHousehold>805051</ad:numberOfHousehold>
+	<ad:numberOfTong>1594</ad:numberOfTong>
+	<ad:numberOfRi>6,707</ad:numberOfRi>
+	<ad:numberOfBan>23343</ad:numberOfBan>
+	<foaf:primaryTopic xml:lang="en">http://en.wikipedia.org/wiki/South_Jeolla_Province</foaf:primaryTopic>
+	<foaf:primaryTopic xml:lang="ko">http://ko.wikipedia.org/wiki/전라남도</foaf:primaryTopic>
+	<foaf:name>전라남도</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/id/ad/Jeolla-nam-do-office">
+	<rdf:type rdf:resource="http://schema.org/GovernmentOffice"/>
+	<schema:address xml:lang="ko">전라남도 무안군 삼향읍 오룡길 1 (남악리 1000)</schema:address>
+	<schema:url>http://www.jeonnam.go.kr</schema:url>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/id/ad/36-Jeolla-nam-do">
+	<ad:office rdf:resource="http://lod.datahub.kr/id/ad/Jeolla-nam-do-office"/>
+	<foaf:name xml:lang="ko">전라남도</foaf:name>
+	<foaf:name xml:lang="ch">全羅南道</foaf:name>
+	<foaf:name xml:lang="en">South Jeolla Province</foaf:name>
+	<foaf:name xml:lang="ro">Jeolla Nam-Do</foaf:name>
+	<rdfs:label xml:lang="ko">전라남도</rdfs:label>
+	<rdfs:label xml:lang="ch">全羅南道</rdfs:label>
+	<rdfs:label xml:lang="en">South Jeolla Province</rdfs:label>
+	<rdfs:label xml:lang="ro">Jeolla Nam-Do</rdfs:label>
+	<dbpedia-owl:part rdf:resource="http://dbpedia.org/resource/South_Korea"/>
+	<ad:divisionCode>36</ad:divisionCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/id/ad/37-Gyeongsang-buk-do">
+	<rdf:type rdf:resource="http://schema.org/AdministrativeArea"/>
+	<rdf:type rdf:resource="http://lod.datahub.kr/def/ad/KoreaAdministrativeDivision"/>
+	<rdf:type rdf:resource="http://lod.datahub.kr/def/ad/Do"/>
+	<schema:name xml:lang="ko">경상북도</schema:name>
+	<schema:name xml:lang="ch">慶尙北道</schema:name>
+	<schema:name xml:lang="en">North Gyeongsang Province</schema:name>
+	<schema:name xml:lang="ro">Gyeongsang Buk-Do</schema:name>
+	<ad:subDivision>10시 13군 36읍 202면 93동</ad:subDivision>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ko.wikipedia.org/wiki/김관용">
+	<foaf:name xml:lang="ko">김관용</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/id/ad/37-Gyeongsang-buk-do">
+	<ad:governor rdf:resource="http://ko.wikipedia.org/wiki/김관용"/>
+	<ad:population>2699195</ad:population>
+	<ad:area>19029.56</ad:area>
+	<ad:numberOfHousehold>1114901</ad:numberOfHousehold>
+	<ad:numberOfTong>2612</ad:numberOfTong>
+	<ad:numberOfRi>5,160</ad:numberOfRi>
+	<ad:numberOfBan>39852</ad:numberOfBan>
+	<foaf:primaryTopic xml:lang="en">http://en.wikipedia.org/wiki/North_Gyeongsang_Province</foaf:primaryTopic>
+	<foaf:primaryTopic xml:lang="ko">http://ko.wikipedia.org/wiki/경상북도</foaf:primaryTopic>
+	<foaf:name>경상북도</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/id/ad/Gyeongsang-buk-do-office">
+	<rdf:type rdf:resource="http://schema.org/GovernmentOffice"/>
+	<schema:address xml:lang="ko">대구광역시 북구 연암로 60 (산격4동 1445-3)</schema:address>
+	<schema:url>http://www.gyeongbuk.go.kr/</schema:url>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/id/ad/37-Gyeongsang-buk-do">
+	<ad:office rdf:resource="http://lod.datahub.kr/id/ad/Gyeongsang-buk-do-office"/>
+	<foaf:name xml:lang="ko">경상북도</foaf:name>
+	<foaf:name xml:lang="ch">慶尙北道</foaf:name>
+	<foaf:name xml:lang="en">North Gyeongsang Province</foaf:name>
+	<foaf:name xml:lang="ro">Gyeongsang Buk-Do</foaf:name>
+	<rdfs:label xml:lang="ko">경상북도</rdfs:label>
+	<rdfs:label xml:lang="ch">慶尙北道</rdfs:label>
+	<rdfs:label xml:lang="en">North Gyeongsang Province</rdfs:label>
+	<rdfs:label xml:lang="ro">Gyeongsang Buk-Do</rdfs:label>
+	<dbpedia-owl:part rdf:resource="http://dbpedia.org/resource/South_Korea"/>
+	<ad:divisionCode>37</ad:divisionCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/id/ad/38-Gyeongsang-nam-do">
+	<rdf:type rdf:resource="http://schema.org/AdministrativeArea"/>
+	<rdf:type rdf:resource="http://lod.datahub.kr/def/ad/KoreaAdministrativeDivision"/>
+	<rdf:type rdf:resource="http://lod.datahub.kr/def/ad/Do"/>
+	<schema:name xml:lang="ko">경상남도</schema:name>
+	<schema:name xml:lang="ch">慶尙南道</schema:name>
+	<schema:name xml:lang="en">South Gyeongsang Province</schema:name>
+	<schema:name xml:lang="ro">Gyeongsang Nam-Do</schema:name>
+	<ad:subDivision>8시 10군 20읍 177면 121동</ad:subDivision>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ko.wikipedia.org/wiki/홍준표_(1954년)">
+	<foaf:name xml:lang="ko">홍준표</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/id/ad/38-Gyeongsang-nam-do">
+	<ad:governor rdf:resource="http://ko.wikipedia.org/wiki/홍준표_(1954년)"/>
+	<ad:population>3308765</ad:population>
+	<ad:area>10533.16</ad:area>
+	<ad:numberOfHousehold>1286678</ad:numberOfHousehold>
+	<ad:numberOfTong>3052</ad:numberOfTong>
+	<ad:numberOfRi>4,767</ad:numberOfRi>
+	<ad:numberOfBan>32087</ad:numberOfBan>
+	<foaf:primaryTopic xml:lang="en">http://en.wikipedia.org/wiki/South_Gyeongsang_Province</foaf:primaryTopic>
+	<foaf:primaryTopic xml:lang="ko">http://ko.wikipedia.org/wiki/경상남도</foaf:primaryTopic>
+	<foaf:name>경상남도</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/id/ad/Gyeongsang-nam-do-office">
+	<rdf:type rdf:resource="http://schema.org/GovernmentOffice"/>
+	<schema:address xml:lang="ko">경상남도 창원시 의창구 중앙대로 300 (사림동 1) </schema:address>
+	<schema:url>http://www.gsnd.net</schema:url>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/id/ad/38-Gyeongsang-nam-do">
+	<ad:office rdf:resource="http://lod.datahub.kr/id/ad/Gyeongsang-nam-do-office"/>
+	<foaf:name xml:lang="ko">경상남도</foaf:name>
+	<foaf:name xml:lang="ch">慶尙南道</foaf:name>
+	<foaf:name xml:lang="en">South Gyeongsang Province</foaf:name>
+	<foaf:name xml:lang="ro">Gyeongsang Nam-Do</foaf:name>
+	<rdfs:label xml:lang="ko">경상남도</rdfs:label>
+	<rdfs:label xml:lang="ch">慶尙南道</rdfs:label>
+	<rdfs:label xml:lang="en">South Gyeongsang Province</rdfs:label>
+	<rdfs:label xml:lang="ro">Gyeongsang Nam-Do</rdfs:label>
+	<dbpedia-owl:part rdf:resource="http://dbpedia.org/resource/South_Korea"/>
+	<ad:divisionCode>38</ad:divisionCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/id/ad/39-Jeju-teukbyeol-jachi-do">
+	<rdf:type rdf:resource="http://schema.org/AdministrativeArea"/>
+	<rdf:type rdf:resource="http://lod.datahub.kr/def/ad/KoreaAdministrativeDivision"/>
+	<rdf:type rdf:resource="http://lod.datahub.kr/def/ad/Teukbyeol-jachi-do"/>
+	<schema:name xml:lang="ko">제주특별자치도</schema:name>
+	<schema:name xml:lang="ch">濟州特別自治道</schema:name>
+	<schema:name xml:lang="en">Jeju special self-governing province</schema:name>
+	<schema:name xml:lang="ro">Jesu Teukbyeol Jachi-Do</schema:name>
+	<ad:subDivision>2행정시 7읍 5면 31동</ad:subDivision>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ko.wikipedia.org/wiki/우근민">
+	<foaf:name xml:lang="ko">우근민</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/id/ad/39-Jeju-teukbyeol-jachi-do">
+	<ad:governor rdf:resource="http://ko.wikipedia.org/wiki/우근민"/>
+	<ad:population>576156</ad:population>
+	<ad:area>1848.85</ad:area>
+	<ad:numberOfHousehold>227873</ad:numberOfHousehold>
+	<ad:numberOfTong>487</ad:numberOfTong>
+	<ad:numberOfRi>172</ad:numberOfRi>
+	<ad:numberOfBan>5300</ad:numberOfBan>
+	<foaf:primaryTopic xml:lang="en">http://en.wikipedia.org/wiki/Jeju_Province</foaf:primaryTopic>
+	<foaf:primaryTopic xml:lang="ko">http://ko.wikipedia.org/wiki/제주특별자치도</foaf:primaryTopic>
+	<foaf:name>제주특별자치도</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/id/ad/Jeju-teukbyeol-jachi-do-office">
+	<rdf:type rdf:resource="http://schema.org/GovernmentOffice"/>
+	<schema:address xml:lang="ko">제주시 문연로 6 (연동)</schema:address>
+	<schema:url>http://www.jeju.go.kr/</schema:url>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/id/ad/39-Jeju-teukbyeol-jachi-do">
+	<ad:office rdf:resource="http://lod.datahub.kr/id/ad/Jeju-teukbyeol-jachi-do-office"/>
+	<foaf:name xml:lang="ko">제주특별자치도</foaf:name>
+	<foaf:name xml:lang="ch">濟州特別自治道</foaf:name>
+	<foaf:name xml:lang="en">Jeju special self-governing province</foaf:name>
+	<foaf:name xml:lang="ro">Jesu Teukbyeol Jachi-Do</foaf:name>
+	<rdfs:label xml:lang="ko">제주특별자치도</rdfs:label>
+	<rdfs:label xml:lang="ch">濟州特別自治道</rdfs:label>
+	<rdfs:label xml:lang="en">Jeju special self-governing province</rdfs:label>
+	<rdfs:label xml:lang="ro">Jesu Teukbyeol Jachi-Do</rdfs:label>
+	<dbpedia-owl:part rdf:resource="http://dbpedia.org/resource/South_Korea"/>
+	<ad:divisionCode>39</ad:divisionCode>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/id/ad/29-Sejong-teukbyeol-jachi-si">
+	<rdf:type rdf:resource="http://schema.org/AdministrativeArea"/>
+	<rdf:type rdf:resource="http://lod.datahub.kr/def/ad/KoreaAdministrativeDivision"/>
+	<rdf:type rdf:resource="http://lod.datahub.kr/def/ad/Teukbyeol-jachi-si"/>
+	<schema:name xml:lang="ko">세종특별자치시</schema:name>
+	<schema:name xml:lang="ch">世宗特別自治市</schema:name>
+	<schema:name xml:lang="en">Sejong special self-governing city</schema:name>
+	<schema:name xml:lang="ro">Sejong Teukbyeol-Jachi-Si</schema:name>
+	<ad:subDivision>1읍9면 1행정동 14법정동</ad:subDivision>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://ko.wikipedia.org/wiki/유한식">
+	<foaf:name xml:lang="ko">유한식</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/id/ad/29-Sejong-teukbyeol-jachi-si">
+	<ad:mayor rdf:resource="http://ko.wikipedia.org/wiki/유한식"/>
+	<ad:population>110377</ad:population>
+	<ad:area>465.23</ad:area>
+	<foaf:primaryTopic xml:lang="en">http://en.wikipedia.org/wiki/Sejong_City</foaf:primaryTopic>
+	<foaf:primaryTopic xml:lang="ko">http://ko.wikipedia.org/wiki/세종특별자치시</foaf:primaryTopic>
+	<foaf:name>세종특별자치시</foaf:name>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/id/ad/Sejong-teukbyeol-jachi-si-office">
+	<rdf:type rdf:resource="http://schema.org/GovernmentOffice"/>
+	<schema:address xml:lang="ko">조치원읍 군청로 93</schema:address>
+	<schema:url>http://www.sejong.go.kr</schema:url>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/id/ad/29-Sejong-teukbyeol-jachi-si">
+	<ad:office rdf:resource="http://lod.datahub.kr/id/ad/Sejong-teukbyeol-jachi-si-office"/>
+	<foaf:name xml:lang="ko">세종특별자치시</foaf:name>
+	<foaf:name xml:lang="ch">世宗特別自治市</foaf:name>
+	<foaf:name xml:lang="en">Sejong special self-governing city</foaf:name>
+	<foaf:name xml:lang="ro">Sejong Teukbyeol-Jachi-Si</foaf:name>
+	<rdfs:label xml:lang="ko">세종특별자치시</rdfs:label>
+	<rdfs:label xml:lang="ch">世宗特別自治市</rdfs:label>
+	<rdfs:label xml:lang="en">Sejong special self-governing city</rdfs:label>
+	<rdfs:label xml:lang="ro">Sejong Teukbyeol-Jachi-Si</rdfs:label>
+	<dbpedia-owl:part rdf:resource="http://dbpedia.org/resource/South_Korea"/>
+	<ad:divisionCode>29</ad:divisionCode>
+</rdf:Description>
+
+</rdf:RDF>
