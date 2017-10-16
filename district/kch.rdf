@@ -1,0 +1,430 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF
+  xmlns:kch="http://lod.datahub.kr/def/kch/"
+  xmlns:fac="http://lod.datahub.kr/def/cf/"
+  xmlns:ore="http://www.openarchives.org/ore/terms/"
+  xmlns:edm="http://www.europeana.eu/schemas/edm/"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+>
+
+<!-- ore -->
+<!-- ore Classes -->
+<rdf:Description rdf:about="http://www.openarchives.org/ore/terms/Aggregation">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<!-- edm -->
+<!-- edm Classes -->
+<rdf:Description rdf:about="http://www.europeana.eu/schemas/edm/ProvidedCHO">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.europeana.eu/schemas/edm/WebResource">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+ 
+<rdf:Description rdf:about="http://www.europeana.eu/schemas/edm/Agent">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+
+<!-- edm Properties -->
+ 
+<rdf:Description rdf:about="http://www.europeana.eu/schemas/edm/hasView">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	<rdfs:domain rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+	<rdfs:range rdf:resource="http://www.europeana.eu/schemas/edm/WebResource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.europeana.eu/schemas/edm/aggregatedCHO">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	<rdfs:label xml:lang="en">Aggregated Cultural Heritage Object</rdfs:label>
+	<rdfs:domain rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+	<rdfs:range rdf:resource="http://www.europeana.eu/schemas/edm/ProvidedCHO"/>
+</rdf:Description>
+
+<rdf:Property rdf:about="http://www.europeana.eu/schemas/edm/dataProvider">
+	<rdfs:domain rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+	<rdfs:range rdf:resource="http://www.europeana.eu/schemas/edm/Agent"/>
+</rdf:Property> 
+ 
+<rdf:Description rdf:about="http://www.europeana.eu/schemas/edm/provider">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdfs:range rdf:resource="http://www.europeana.eu/schemas/edm/Agent"/>
+</rdf:Description>
+
+
+<rdf:Description rdf:about="http://www.europeana.eu/schemas/edm/hasType">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	<rdfs:label xml:lang="en">Has Type</rdfs:label>
+	<skos:definition xml:lang="en">This property relates a resource with the concepts it belongs to in a suitable type system such as MIME or any thesaurus that captures categories of objects in a given field (e.g., the “Objects” facet in Getty’s Art and Architecture Thesaurus). It does not capture aboutness.</skos:definition>
+	<skos:definition xml:lang="ko">문화재청 분류체계의 SKOS Conecpt과 연결시킨다.</skos:definition>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.europeana.eu/schemas/edm/begin">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	<skos:definition xml:lang="en">This property denotes the start date of a period of time.</skos:definition>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.europeana.eu/schemas/edm/end">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	<skos:definition xml:lang="en">This property denotes the end date of a period of time.</skos:definition>
+</rdf:Description>
+
+
+<!-- dc -->
+<rdf:Property rdf:about="http://purl.org/dc/elements/1.1/rights">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdfs:comment xml:lang="en-US">Information about rights held in and over the resource.</rdfs:comment>
+</rdf:Property>
+
+<rdf:Property rdf:about="http://purl.org/dc/elements/1.1/description">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+</rdf:Property>
+
+<rdf:Property rdf:about="http://purl.org/dc/elements/1.1/identifier">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+</rdf:Property>
+
+<rdf:Property rdf:about="http://purl.org/dc/elements/1.1/date">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+</rdf:Property>
+
+
+<!-- dcterms -->
+<!-- Classes -->
+<rdf:Description rdf:about="http://purl.org/dc/terms/PeriodOfTime">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/dc/terms/MediaType">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:comment xml:lang="en">A file format or physical medium.</rdfs:comment>
+</rdf:Description>
+
+<!-- Properties -->
+<rdf:Description rdf:about="http://purl.org/dc/terms/type">
+	<rdfs:label xml:lang="en">Type</rdfs:label>
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/dc/terms/title">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/dc/terms/temporal">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdfs:label xml:lang="en">Temporal Coverage</rdfs:label>
+	<rdfs:range rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/dc/terms/rightsHolder">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdfs:comment xml:lang="en">A person or organization owning or managing rights over the resource.</rdfs:comment>
+	<rdfs:range rdf:resource="http://purl.org/dc/terms/Agent"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/dc/terms/creator">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdfs:range rdf:resource="http://purl.org/dc/terms/Agent"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://purl.org/dc/terms/format">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdfs:comment xml:lang="en">The file format, physical medium, or dimensions of the resource.</rdfs:comment>
+	<rdfs:range rdf:resource="http://purl.org/dc/terms/MediaTypeOrExtent"/>
+</rdf:Description>
+
+<!-- SKOS -->
+
+<rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+</rdf:Description>
+
+
+<!-- Data Hub -->
+<!-- Classes -->
+<rdf:Description rdf:about="http://lod.datahub.kr/def/kch/Agent">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<rdfs:subClassOf rdf:resource="http://www.europeana.eu/schemas/edm/Agent" />
+	<rdfs:subClassOf rdf:resource="http://purl.org/dc/terms/Agent" />
+	<rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Agent" />
+</rdf:Description>
+
+<!-- Properties -->
+<rdf:Description rdf:about="http://lod.datahub.kr/def/kch/dateDesignated">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdfs:label xml:lang="en">Designated Date</rdfs:label>
+	<rdfs:label xml:lang="ko">지정일</rdfs:label>
+	<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+	<rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/date" />
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/def/kch/manager">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdfs:label xml:lang="en">manager</rdfs:label>
+	<rdfs:label xml:lang="ko">관리자</rdfs:label>
+	<rdfs:comment xml:lang="ko">관리자, 관리기관</rdfs:comment>
+	<rdfs:range rdf:resource="http://lod.datahub.kr/def/kch/Agent"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/def/kch/quantity">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdfs:label xml:lang="en">quantity</rdfs:label>
+	<rdfs:label xml:lang="ko">수량</rdfs:label>
+	<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/def/kch/qrCode">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdfs:label xml:lang="en">QR Code</rdfs:label>
+	<rdfs:label xml:lang="ko">QR Code</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/def/kch/class1">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdfs:label xml:lang="en">class1</rdfs:label>
+	<rdfs:label xml:lang="ko">분류 1</rdfs:label>
+	<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+</rdf:Description>
+
+
+<rdf:Description rdf:about="http://lod.datahub.kr/def/kch/class2">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdfs:label xml:lang="en">class2</rdfs:label>
+	<rdfs:label xml:lang="ko">분류 2</rdfs:label>
+	<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/def/kch/class3">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdfs:label xml:lang="en">class3</rdfs:label>
+	<rdfs:label xml:lang="ko">분류 3</rdfs:label>
+	<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://lod.datahub.kr/def/kch/class4">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdfs:label xml:lang="en">class4</rdfs:label>
+	<rdfs:label xml:lang="ko">분류 4</rdfs:label>
+	<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/def/kch/categoryName">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdfs:label xml:lang="en">categoryName</rdfs:label>
+	<rdfs:label xml:lang="ko">종목명</rdfs:label>
+	<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+</rdf:Description>
+
+
+
+<!-- 문화시설 RDF 에서 가져옴 -->
+<rdf:Description rdf:about="http://lod.datahub.kr/def/cf/streetNameAddress">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdfs:label xml:lang="en">street name address</rdfs:label>
+	<rdfs:label xml:lang="ko">도로명 주소(문자열)</rdfs:label>
+	<rdfs:comment xml:lang="ko">한글주소는 문자열 마지막에 @ko 를 영문주소는 @en 을 붙임 - e.g. "서울특별시 종로구 청와대로 1"@ko</rdfs:comment>
+	<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+	<rdfs:subPropertyOf rdf:resource="http://lod.datahub.kr/def/cf/address"/>
+	<rdfs:isDefinedBy rdf:resource="http://lod.datahub.kr/def/cf/"/>
+</rdf:Description>
+
+
+<!-- PeriodOfTime Instances -->
+<rdf:Description rdf:about="http://ko.wikipedia.org/wiki/선사_시대">
+	<rdf:type rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+	<rdfs:label xml:lang="ko">선사시대</rdfs:label>
+	<rdfs:label xml:lang="en">Prehistoryic Age</rdfs:label>
+</rdf:Description>
+<rdf:Description rdf:about="http://ko.wikipedia.org/wiki/석기_시대">
+	<rdf:type rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+	<rdfs:label xml:lang="ko">석기시대</rdfs:label>
+	<rdfs:label xml:lang="en">Stone Age</rdfs:label>
+</rdf:Description>
+<rdf:Description rdf:about="http://ko.wikipedia.org/wiki/청동기_시대">
+	<rdf:type rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+	<rdfs:label xml:lang="ko">청동기시대</rdfs:label>
+	<rdfs:label xml:lang="en">Bronze Age</rdfs:label>
+</rdf:Description>
+<rdf:Description rdf:about="http://ko.wikipedia.org/wiki/철기_시대">
+	<rdf:type rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+	<rdfs:label xml:lang="ko">철기시대</rdfs:label>
+	<rdfs:label xml:lang="en">Iron Age</rdfs:label>
+</rdf:Description>
+<rdf:Description rdf:about="http://ko.wikipedia.org/wiki/삼국_시대">
+	<rdf:type rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+	<rdfs:label xml:lang="ko">삼국시대</rdfs:label>
+	<rdfs:label xml:lang="en">Three Kingdoms</rdfs:label>
+</rdf:Description>
+<rdf:Description rdf:about="http://ko.wikipedia.org/wiki/고구려">
+	<rdf:type rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+	<rdfs:label xml:lang="ko">삼국시대-고구려</rdfs:label>
+	<rdfs:label xml:lang="en">Goguryeo</rdfs:label>
+	<owl:sameAs rdf:resource="http://dbpedia.org/page/Goguryeo" />
+</rdf:Description>
+<rdf:Description rdf:about="http://ko.wikipedia.org/wiki/백제">
+	<rdf:type rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+	<rdfs:label xml:lang="ko">삼국시대-백제</rdfs:label>
+	<rdfs:label xml:lang="en">Baekje</rdfs:label>
+</rdf:Description>
+<rdf:Description rdf:about="http://ko.wikipedia.org/wiki/신라">
+	<rdf:type rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+	<rdfs:label xml:lang="ko">삼국시대-신라</rdfs:label>
+	<rdfs:label xml:lang="en">Silla</rdfs:label>
+</rdf:Description>
+<rdf:Description rdf:about="http://ko.wikipedia.org/wiki/가야">
+	<rdf:type rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+	<rdfs:label xml:lang="ko">가야</rdfs:label>
+	<rdfs:label xml:lang="en">Gaya</rdfs:label>
+</rdf:Description>
+<rdf:Description rdf:about="http://ko.wikipedia.org/wiki/발해">
+	<rdf:type rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+	<rdfs:label xml:lang="ko">발해</rdfs:label>
+	<rdfs:label xml:lang="en">Balhae</rdfs:label>
+</rdf:Description>
+<rdf:Description rdf:about="http://ko.wikipedia.org/wiki/통일신라#.EC.8B.A0.EB.9D.BC.EC.9D.98_.EC.82.BC.EA.B5.AD.ED.86.B5.EC.9D.BC">
+	<rdf:type rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+	<rdfs:label xml:lang="ko">통일신라</rdfs:label>
+	<rdfs:label xml:lang="en">Unified Silla</rdfs:label>
+</rdf:Description>
+<rdf:Description rdf:about="http://ko.wikipedia.org/wiki/고려">
+	<rdf:type rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+	<rdfs:label xml:lang="ko">고려시대</rdfs:label>
+	<rdfs:label xml:lang="en">Goryeo</rdfs:label>
+</rdf:Description>
+<rdf:Description rdf:about="http://ko.wikipedia.org/wiki/조선">
+	<rdf:type rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+	<rdfs:label xml:lang="ko">조선시대</rdfs:label>
+	<rdfs:label xml:lang="en">Joseon</rdfs:label>
+</rdf:Description>
+<rdf:Description rdf:about="http://ko.wikipedia.org/wiki/대한제국">
+	<rdf:type rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+	<rdfs:label xml:lang="ko">대한제국시대</rdfs:label>
+	<rdfs:label xml:lang="en">Great Han Empire</rdfs:label>
+</rdf:Description>
+<rdf:Description rdf:about="http://ko.wikipedia.org/wiki/일제_강점기">
+	<rdf:type rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
+	<rdfs:label xml:lang="ko">일제강점기</rdfs:label>
+	<rdfs:label xml:lang="en">Japanese Imperialism</rdfs:label>
+</rdf:Description>
+
+
+<!-- KCH_Category -->  
+<rdf:Description rdf:about="http://lod.datahub.kr/def/kch/category/NationalTreasures">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label xml:lang="en">National Treasures</rdfs:label>
+	<rdfs:label xml:lang="ko">국보</rdfs:label>
+	<rdfs:comment xml:lang="en">Heritage of a rare and significant value in terms of human culture and with an equivalent value to "Treasures" described below</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/def/kch/category/Treasures">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label xml:lang="en">Treasures</rdfs:label>
+	<rdfs:label xml:lang="ko">보물</rdfs:label>
+	<rdfs:comment xml:lang="en">Tangible cultural heritage of important value, such as historic architecture, ancient books and documents, paintings, sculpture, handicraft, archeological materials and armory</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/def/kch/category/HistoricSites">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label xml:lang="en">Historic Sites</rdfs:label>
+	<rdfs:label xml:lang="ko">사적</rdfs:label>
+	<rdfs:comment xml:lang="en">Places and facilities of great historic and academic values that are specially commemorable (eg: prehistoric sites, fortresses, ancient tombs, kiln sites, dolmens, temple sites and shell mounds)</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/def/kch/category/ScenicSites">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label xml:lang="en">Scenic Sites</rdfs:label>
+	<rdfs:label xml:lang="ko">명승</rdfs:label>
+	<rdfs:comment xml:lang="en">Places of natural beauty with great historic, artistic or scenic values, which features distinctive uniqueness and rarity originated from their formation processes</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/def/kch/category/NaturalMonuments">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label xml:lang="en">Natural Monuments</rdfs:label>
+	<rdfs:label xml:lang="ko">천연기념물</rdfs:label>
+	<rdfs:comment xml:lang="en">Animals, plants, minerals, caves, geological features, biological products and special natural phenomena, carrying great historic, cultural, scientific, aesthetic or academic values, through which the history of a nation or the secrets to the creation of the earth can be identified or revealed</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/def/kch/category/ImportantIntangibleCulturalHeritages">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label xml:lang="en">Important Intangible Cultural Heritages</rdfs:label>
+	<rdfs:label xml:lang="ko">중요무형문화재</rdfs:label>
+	<rdfs:comment xml:lang="en">Intangible cultural heritage, such as drama, music, dance and craftsmanship, carrying great historic, artistic or academic values</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/def/kch/category/ImportantFolkloreMaterials">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label xml:lang="en">Important Folklore Materials</rdfs:label>
+	<rdfs:label xml:lang="ko">중요민속문화재</rdfs:label>
+	<rdfs:comment xml:lang="en">Clothing, implements and houses used for daily life and businesses, transportation and communications, entertainment and social life, and religious or annual events, that are highly valuable for the understanding of the transition in people's lifestyle and mores</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/def/kch/category/TangibleCulturalHeritage">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label xml:lang="en">Province Tangible Cultural Heritage</rdfs:label>
+	<rdfs:label xml:lang="ko">시도유형문화재</rdfs:label>
+	<rdfs:comment xml:lang="en">Tangible cultural products of great historic and artistic values, such as buildings, classical records and books, ancient documents, paintings, sculpture and handicraft; and archeological materials corresponding thereto</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/def/kch/category/IntangibleCulturalHeritage">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label xml:lang="en">Province Intangible Cultural Heritage</rdfs:label>
+	<rdfs:label xml:lang="ko">시도무형문화재</rdfs:label>
+	<rdfs:comment xml:lang="en">Intangible cultural products of great historic and artistic values, such as drama, music, dance and craftsmanship</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/def/kch/category/Monuments">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label xml:lang="en">Province Monuments</rdfs:label>
+	<rdfs:label xml:lang="ko">시도 기념물</rdfs:label>
+	<rdfs:comment xml:lang="en">Historic sites of great historic or academic values, such as shell mounds, ancient tombs, fortress sits, palace sites and relic sites; scenic sites of great artistic or aesthetic values; and animals (including habitats, breeding places and resting places), plants (including natural growing sites), minerals and caves of great academic values</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/def/kch/category/FolkloreMaterials">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label xml:lang="en">Province Folklore Materials</rdfs:label>
+	<rdfs:label xml:lang="ko">시도 민속문화재</rdfs:label>
+	<rdfs:comment xml:lang="en">Clothing, implements and houses used for daily life, religious or annual events and so on, that are indispensable for the understanding of the transition in people's lifestyle and mores</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/def/kch/category/CulturalHeritageMaterials">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label xml:lang="en">Cultural Heritage Materials</rdfs:label>
+	<rdfs:label xml:lang="ko">문화재자료</rdfs:label>
+	<rdfs:comment xml:lang="en">Among the heritages that are not designated as State-, City- or Province-designated heritages, those significant for the regional culture and thus in need of preservation are designated as the "Cultural Heritage Material" in accordance with municipal or provincial regulations.</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/def/kch/category/RegisteredCulturalHeritage">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:label xml:lang="en">Registered Cultural Heritage</rdfs:label>
+	<rdfs:label xml:lang="ko">등록문화재</rdfs:label>
+	<rdfs:comment xml:lang="en">The Registered Cultural Heritage refers to architectural structures or monumental facilities of early modern or modern times, that have significant values and thus need to be preserved.</rdfs:comment>
+</rdf:Description>
+
+
+<!-- MediaType (MIME Type) -->
+<rdf:Description rdf:about="http://things.datahub.kr/id/mediaType/image/jpg">
+	<rdf:type rdf:resource="http://purl.org/dc/terms/MediaType"/>
+	<rdf:value>image/jpg</rdf:value>
+	<rdfs:label xml:lang="en">IMAGE</rdfs:label>
+	<rdfs:label xml:lang="ko">이미지</rdfs:label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://things.datahub.kr/id/mediaType/video/x-ms-wmv">
+	<rdf:type rdf:resource="http://purl.org/dc/terms/MediaType"/>
+	<rdf:value>video/x-ms-wmv</rdf:value>
+	<rdfs:label xml:lang="en">VIDEO</rdfs:label>
+	<rdfs:label xml:lang="ko">동영상</rdfs:label>
+</rdf:Description>
+
+</rdf:RDF>

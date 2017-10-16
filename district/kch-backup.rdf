@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  	xml:base="http://lod.datahub.kr/def/kch/category/#">
+
+  <rdfs:Class rdf:about="http://lod.datahub.kr/def/kch/category/NationalTreasure">
+    <rdfs:label xml:lang="ko">국보</rdfs:label>
+    <rdfs:label xml:lang="en">National Treasure</rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">국보</skos:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="http://lod.datahub.kr/def/kch/category/Treasure">
+    <rdfs:label xml:lang="ko">보물</rdfs:label>
+    <rdfs:label xml:lang="en">Treasure</rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">보물</skos:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="http://lod.datahub.kr/def/kch/category/HistoricSite">
+    <rdfs:label xml:lang="ko">사적</rdfs:label>
+    <rdfs:label xml:lang="en">Historic Site</rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">사적</skos:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="http://lod.datahub.kr/def/kch/category/ScenicSite">
+    <rdfs:label xml:lang="ko">명승</rdfs:label>
+    <rdfs:label xml:lang="en">Scenic Sites</rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">명승</skos:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="http://lod.datahub.kr/def/kch/category/NaturalMonument">
+    <rdfs:label xml:lang="ko">천연기념물</rdfs:label>
+    <rdfs:label xml:lang="en">Natural Monument</rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">천연기념물</skos:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="http://lod.datahub.kr/def/kch/category/ImportantIntangibleCulturalHeritages">
+    <rdfs:label xml:lang="ko">중요무형문화재</rdfs:label>
+    <rdfs:label xml:lang="en">Important Intangible Cultural Heritages</rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">중요무형문화재</skos:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="http://lod.datahub.kr/def/kch/category/ImportantFolkloreMaterials">
+    <rdfs:label xml:lang="ko">중요민속문화재</rdfs:label>
+    <rdfs:label xml:lang="en">Important Folklore Materials</rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">중요민속문화재</skos:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="http://lod.datahub.kr/def/kch/category/TangibleCulturalHeritage">
+    <rdfs:label xml:lang="ko">유형문화재</rdfs:label>
+    <rdfs:label xml:lang="en">Tangible Cultural Heritage</rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">유형문화재</skos:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="http://lod.datahub.kr/def/kch/category/IntangibleCulturalHeritage">
+    <rdfs:label xml:lang="ko">무형문화재</rdfs:label>
+    <rdfs:label xml:lang="en">Intangible Cultural Heritage</rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">무형문화재</skos:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="http://lod.datahub.kr/def/kch/category/Monument">
+    <rdfs:label xml:lang="ko">기념물</rdfs:label>
+    <rdfs:label xml:lang="en">Monument</rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">기념물</skos:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="http://lod.datahub.kr/def/kch/category/FolkloreMaterial">
+    <rdfs:label xml:lang="ko">민속문화재</rdfs:label>
+    <rdfs:label xml:lang="en">Folklore Material</rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">민속문화재</skos:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="http://lod.datahub.kr/def/kch/category/CulturalHeritageMaterials">
+    <rdfs:label xml:lang="ko">문화재자료</rdfs:label>
+    <rdfs:label xml:lang="en">Cultural Heritage Materials</rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">문화재자료</skos:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdfs:Class>
+  
+  <rdfs:Class rdf:about="http://lod.datahub.kr/def/kch/category/RegisteredCulturalHeritage">
+    <rdfs:label xml:lang="ko">등록문화재</rdfs:label>
+    <rdfs:label xml:lang="en">Registered Cultural Heritage</rdfs:label>
+    <skos:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">등록문화재</skos:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdfs:Class>  
+</rdf:RDF>

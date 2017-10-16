@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:schema="http://schema.org/"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:ad="http://lod.datahub.kr/def/ad/"
+	xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+	
+<owl:Ontology rdf:about="http://lod.datahub.kr/def/ad/">
+        <rdfs:label xml:lang="en">Administrative Division Ontology</rdfs:label>
+        <rdfs:comment xml:lang="en">An ontology describing the administrative divisions in South Korea.</rdfs:comment>
+        <dc:creator xml:lang="en">Haklae Kim</dc:creator>
+        <dct:creator rdf:resource="http://kr.okfn.org/id/"/>
+        <dct:publisher rdf:resource="http://kr.okfn.org/"/>
+        <rdfs:isDefinedBy rdf:resource="http://lod.datahub.kr/def/ad.rdf"/>
+    </owl:Ontology>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/def/ad/Upper-level-local-autonomy">
+	<rdfs:subClassOf rdf:resource="http://schema.org/AdministrativeArea"/>
+	<schema:name xml:lang="en">Upper level local autonomy</schema:name>
+	<schema:name xml:lang="ko">광역자치단체</schema:name>
+	<schema:name xml:lang="ch">廣域自治團體</schema:name>
+	<schema:name xml:lang="rr">Upper-level-local-autonomy</schema:name>
+	<rdfs:label xml:lang="en">Upper level local autonomy</rdfs:label>
+	<rdfs:label xml:lang="ko">광역자치단체</rdfs:label>
+	<rdfs:label xml:lang="ch">廣域自治團體</rdfs:label>
+	<rdfs:label xml:lang="rr">Upper-level-local-autonomy</rdfs:label>
+	<rdfs:comment xml:lang="ko">광역자치단체(廣域自治團體)는 일반적으로 지방자치단체에서 기초자치단체에 비해 넓은 지역을 관할하는 상위의 행정 자치 조직</rdfs:comment>
+	<skos:prefLabel xml:lang="ko">광역자치단체</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/def/ad/Lower-level-local-autonomy">
+	<rdfs:subClassOf rdf:resource="http://schema.org/AdministrativeArea"/>
+	<schema:name xml:lang="en">Lower level local autonomy</schema:name>
+	<schema:name xml:lang="ko">기초자치단체</schema:name>
+	<schema:name xml:lang="ch">基礎自治團體</schema:name>
+	<schema:name xml:lang="rr">Lower-level-local-autonomy</schema:name>
+	<rdfs:label xml:lang="en">Lower level local autonomy</rdfs:label>
+	<rdfs:label xml:lang="ko">기초자치단체</rdfs:label>
+	<rdfs:label xml:lang="ch">基礎自治團體</rdfs:label>
+	<rdfs:label xml:lang="rr">Lower-level-local-autonomy</rdfs:label>
+	<rdfs:comment xml:lang="ko">기초자치단체(基礎自治團體)는 일반적으로 지방자치단체에서 광역자치단체의 하부에 위치해 좁은 지역을 관할하는 행정 자치 조직</rdfs:comment>
+	<skos:prefLabel xml:lang="ko">기초자치단체</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/def/ad/Do">
+	<rdfs:subClassOf rdf:resource="http://lod.datahub.kr/def/ad/Upper-level-local-autonomy"/>
+	<schema:name xml:lang="en">Provinces</schema:name>
+	<schema:name xml:lang="ko">도</schema:name>
+	<schema:name xml:lang="ch">道</schema:name>
+	<schema:name xml:lang="rr">Do</schema:name>
+	<rdfs:label xml:lang="en">Provinces</rdfs:label>
+	<rdfs:label xml:lang="ko">도</rdfs:label>
+	<rdfs:label xml:lang="ch">道</rdfs:label>
+	<rdfs:label xml:lang="rr">Do</rdfs:label>
+	<rdfs:comment xml:lang="ko">도(道)는 행정 구역의 하나이다. 한국·중국·일본 등 동양 한자 문화권 국가의 행정구역으로 예로부터 써왔다. 현재는 한국(대한민국·조선민주주의인민공화국)에서만 널리 쓰고 있으며, 일본에서는 홋카이도(北海道)에만 그 이름이 남아 있으며, 중국에서는 폐지되었다.</rdfs:comment>
+	<foaf:primaryTopic xml:lang="ko">http://ko.wikipedia.org/wiki/%EB%8F%84_(%ED%96%89%EC%A0%95_%EA%B5%AC%EC%97%AD)</foaf:primaryTopic>
+	<foaf:primaryTopic xml:lang="en">http://en.wikipedia.org/wiki/Provinces_of_South_Korea</foaf:primaryTopic>
+	<skos:prefLabel xml:lang="ko">도</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/def/ad/Teukbyeol-jachi-do">
+	<rdfs:subClassOf rdf:resource="http://lod.datahub.kr/def/ad/Upper-level-local-autonomy"/>
+	<schema:name xml:lang="en">Special self-governing province</schema:name>
+	<schema:name xml:lang="ko">특별 자치도</schema:name>
+	<schema:name xml:lang="ch">特別自治道</schema:name>
+	<schema:name xml:lang="rr">Teukbyeol-jachi-do</schema:name>
+	<rdfs:label xml:lang="en">Special self-governing province</rdfs:label>
+	<rdfs:label xml:lang="ko">특별 자치도</rdfs:label>
+	<rdfs:label xml:lang="ch">特別自治道</rdfs:label>
+	<rdfs:label xml:lang="rr">Teukbyeol-jachi-do</rdfs:label>
+	<rdfs:comment xml:lang="ko">특별자치도(特別自治道)는 대한민국의 광역 행정 구역이다. 특별자치도는 지방자치법에 의거한 상급 지방자치단체로 정부의 직할하에 두며 법률에 의거해 고도의 자치권이 보장된다. 특별자치도의 관할 내에는 특별자치도지사 직속의 자치경찰, 도로기획단, 특별자치도지사 직속 보훈청 등 국방, 경제 이외의 대부분의 권한을 담당하는 행정 기관이 배치되어 있다. 다만 치안 유지를 위해 행정안전부 소속 지방경찰청급 특별자치도경찰청과 기타 치안 관련 업무 기관은 양분되거나 타 시도의 권한과 동일하게 존재한다.</rdfs:comment>
+	<foaf:primaryTopic xml:lang="ko">http://ko.wikipedia.org/wiki/%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EB%8F%84</foaf:primaryTopic>
+	<foaf:primaryTopic xml:lang="en">http://en.wikipedia.org/wiki/Provinces_of_South_Korea</foaf:primaryTopic>
+	<skos:prefLabel xml:lang="ko">특별 자치도</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/def/ad/Teukbyeol-si">
+	<rdfs:subClassOf rdf:resource="http://lod.datahub.kr/def/ad/Upper-level-local-autonomy"/>
+	<schema:name xml:lang="en">Special city</schema:name>
+	<schema:name xml:lang="ko">특별시</schema:name>
+	<schema:name xml:lang="ch">特別市</schema:name>
+	<schema:name xml:lang="rr">Teukbyeol-si</schema:name>
+	<rdfs:label xml:lang="en">Special city</rdfs:label>
+	<rdfs:label xml:lang="ko">특별시</rdfs:label>
+	<rdfs:label xml:lang="ch">特別市</rdfs:label>
+	<rdfs:label xml:lang="rr">Teukbyeol-si</rdfs:label>
+	<rdfs:comment xml:lang="ko">특별시(特別市)는 대한민국의 행정 구역과 조선민주주의인민공화국의 행정 구역으로, 현재 대한민국에서는 서울특별시가 유일하며, 조선민주주의인민공화국에서는 라선특별시와 남포특별시가 설치되어 있다. 서울은 1949년'특별자유시'에서 특별시로 승격시킴으로써 생겨났다. 역할은 광역시와 유사하나, 더 강한 권한을 가진다. 라선은2010년 1월 4일 최고인민회의 상임위원회 정령에 따라 '특급시'에서 특별시로 승격시킴으로써 생겨났다.[1]</rdfs:comment>
+	<foaf:primaryTopic xml:lang="ko">http://ko.wikipedia.org/wiki/%ED%8A%B9%EB%B3%84%EC%8B%9C</foaf:primaryTopic>
+	<foaf:primaryTopic xml:lang="en">http://en.wikipedia.org/wiki/Special_cities_of_South_Korea</foaf:primaryTopic>
+	<skos:prefLabel xml:lang="ko">특별시</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/def/ad/Teukbyeol-jachi-si">
+	<rdfs:subClassOf rdf:resource="http://lod.datahub.kr/def/ad/Upper-level-local-autonomy"/>
+	<schema:name xml:lang="en">Special self-governing city</schema:name>
+	<schema:name xml:lang="ko">특별 자치시</schema:name>
+	<schema:name xml:lang="ch">特別自治市</schema:name>
+	<schema:name xml:lang="rr">Teukbyeol-jachi-si</schema:name>
+	<rdfs:label xml:lang="en">Special self-governing city</rdfs:label>
+	<rdfs:label xml:lang="ko">특별 자치시</rdfs:label>
+	<rdfs:label xml:lang="ch">特別自治市</rdfs:label>
+	<rdfs:label xml:lang="rr">Teukbyeol-jachi-si</rdfs:label>
+	<rdfs:comment xml:lang="ko">특별자치시(特別自治市)는 대한민국의 행정 구역이다. 2009년 4월 21일 국회 행정안전위원회 소속 국회의원들은 세종시의 법적지위와 관련 '정부직할의 세종특별자치시'로 확정하고, 국가위임사무도 원칙적으로 세종시에 위임하기로 합의하였다.[1] 2012년 7월 1일 세종특별자치시가 출범하여 대한민국 최초의 특별자치시가 되었다.</rdfs:comment>
+	<foaf:primaryTopic xml:lang="ko">http://ko.wikipedia.org/wiki/%ED%8A%B9%EB%B3%84%EC%9E%90%EC%B9%98%EC%8B%9C</foaf:primaryTopic>
+	<foaf:primaryTopic xml:lang="en">http://en.wikipedia.org/wiki/Special_cities_of_South_Korea</foaf:primaryTopic>
+	<skos:prefLabel xml:lang="ko">특별 자치시</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/def/ad/Gwangyeok-si">
+	<rdfs:subClassOf rdf:resource="http://lod.datahub.kr/def/ad/Upper-level-local-autonomy"/>
+	<schema:name xml:lang="en">Metropolitan cities</schema:name>
+	<schema:name xml:lang="ko">광역시</schema:name>
+	<schema:name xml:lang="ch">廣域市</schema:name>
+	<schema:name xml:lang="rr">Gwangyeok-si</schema:name>
+	<rdfs:label xml:lang="en">Metropolitan cities</rdfs:label>
+	<rdfs:label xml:lang="ko">광역시</rdfs:label>
+	<rdfs:label xml:lang="ch">廣域市</rdfs:label>
+	<rdfs:label xml:lang="rr">Gwangyeok-si</rdfs:label>
+	<rdfs:comment xml:lang="ko">특별시에 버금가는 행정 구역으로, 원래는 직할시였으나 지방자치법에 의해 1995년에 현재와 같이 명칭을 변경하였다. 변경 당시에는 부산, 대구, 인천, 광주, 대전만이 있었으나 1997년에 경상남도 울산시가 광역시로 승격되면서 현재는 총 6곳이 되었다. 하위 행정 구역으로 자치구나 군을 가진다.</rdfs:comment>
+	<rdfs:comment xml:lang="en">A metropolis is a very large city or urban area which is a significant economic, political andcultural center for a country or region, and an important hub for regional or international connections and communications. The term is Greek and means the "mother city" of acolony (in the ancient sense), that is, the city which sent out settlers. This was later generalized to a city regarded as a center of a specified activity, or any large, important city in a nation.</rdfs:comment>
+	<foaf:primaryTopic xml:lang="ko">http://ko.wikipedia.org/wiki/%EA%B4%91%EC%97%AD%EC%8B%9C</foaf:primaryTopic>
+	<foaf:primaryTopic xml:lang="en">http://en.wikipedia.org/wiki/Special_cities_of_South_Korea</foaf:primaryTopic>
+	<skos:prefLabel xml:lang="ko">광역시</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/def/ad/Si">
+	<rdfs:subClassOf rdf:resource="http://lod.datahub.kr/def/ad/Lower-level-local-autonomy"/>
+	<schema:name xml:lang="en">Cities</schema:name>
+	<schema:name xml:lang="ko">시</schema:name>
+	<schema:name xml:lang="ch">市</schema:name>
+	<schema:name xml:lang="rr">Si</schema:name>
+	<rdfs:label xml:lang="en">Cities</rdfs:label>
+	<rdfs:label xml:lang="ko">시</rdfs:label>
+	<rdfs:label xml:lang="ch">市</rdfs:label>
+	<rdfs:label xml:lang="rr">Si</rdfs:label>
+	<rdfs:comment xml:lang="ko">대한민국에서 시라고 하는 것은 크게 세 종류로 나눌 수 있는데, 광역자치단체인 특별시·광역시·특별자치시(특별자치시는 2012년 7월부터 출범),[1] 도의 하부 행정 구역으로 기초자치단체인 시,[1] 그리고 특별자치도의 하부 행정구역으로 지방자치단체가 아닌 행정시가 있다.[2] 기초자치단체인 시는 인구가 50만 명 이상이 되면 일반구(행정구)를 하부 행정 구역으로 둘 수 있다.[3](성남시, 청주시, 전주시 등) 일반적으로 말하는 시는 기초자치단체인 시이다. 이를 기준으로 할 때, 가장 최근에 생긴 시는 2012년 1월 1일자로 시가 된 충청남도 당진시이다. 현재 인구가 가장 많은 시는 경기도 수원시, 인구가 가장 적은 시는 충청남도 계룡시이다. 옛날에는 읍 또는 면의 인구가 5만 이상이 되면 시로 승격하여 군에서 분리되고 군의 이름도 바꿨으며, 읍이 시로 승격되면서 군은 시를 둘러싼 위요지가 되거나 월경지를 형성하기도 한다.</rdfs:comment>
+	<rdfs:comment xml:lang="en">A si (시, 市) is one of the divisions of a province, along with gun. Cities have a population of at least 150,000; once a county (gun) attains that population, it becomes a city (Gijang county in Busan is an exception). Cities with a population of over 500,000 (such as Suwon,Cheongju, and Jeonju) are divided into districts (gu); Gimhae, Hwaseong and Namyangju are noticeable exceptions to this rule. Gus are then further divided into neighborhoods (dong); cities with a population of less than 500,000 do not have wards – these cities are directly divided into neighborhoods (dong).</rdfs:comment>
+	<foaf:primaryTopic xml:lang="ko">http://ko.wikipedia.org/wiki/%EC%8B%9C_(%ED%96%89%EC%A0%95_%EA%B5%AC%EC%97%AD)</foaf:primaryTopic>
+	<foaf:primaryTopic xml:lang="en">http://en.wikipedia.org/wiki/List_of_cities_in_South_Korea</foaf:primaryTopic>
+	<skos:prefLabel xml:lang="ko">시</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/def/ad/Gun">
+	<rdfs:subClassOf rdf:resource="http://lod.datahub.kr/def/ad/Lower-level-local-autonomy"/>
+	<schema:name xml:lang="en">Counties</schema:name>
+	<schema:name xml:lang="ko">군</schema:name>
+	<schema:name xml:lang="ch">郡</schema:name>
+	<schema:name xml:lang="rr">Gun</schema:name>
+	<rdfs:label xml:lang="en">Counties</rdfs:label>
+	<rdfs:label xml:lang="ko">군</rdfs:label>
+	<rdfs:label xml:lang="ch">郡</rdfs:label>
+	<rdfs:label xml:lang="rr">Gun</rdfs:label>
+	<rdfs:comment xml:lang="ko">대한민국에서는 군은 도 및 광역시의 하부 행정 구역이다. 도시의 형태를 갖추고 (시가지를 구성하는 지역안에 거주하는 인구의 비율이 전체 인구의 60% 이상이며 상업·공업 기타 도시적 산업에 종사하는 가구의 비율이 전체가구의 60% 이상.) 인구가 5만 명 이상이 되거나 국가의 정책으로 인하여 도시가 형성되고, 도의 출장소가 설치된 지역으로서 인구 3만 명 이상일 경우 자치시로 승격될 수 있다. 위의 조건에는 못 미치지만 설치된 시와 군을 통합한 지역, 인구 5만 이상의 도시 형태를 갖춘 군, 인구 2만 이상의 도시 형태를 갖춘 2개 이상의 지역의 인구의 합이 5만 명 이상이고 군 전체의 인구가 15만 명 이상인 군이 되어도 시로 승격될 수 있다. 하부 행정 구역으로는 읍·면이 있다. 2012년 현재 읍의 개수가 가장 많은 군은 읍이 4개인 강원도 정선군과 철원군, 울산광역시 울주군(과거에는 읍이 6개였던 고양군이었다.)이다. 최근 군에서 시로 승격된 지역은 2012년 1월 1일에 시 승격된 당진시이다. 인구가 가장 많은 군은 20만 명이 거주하는 울주군이고, 인구가 가장 적은 군은 울릉군으로 인구가 10000명 정도밖에 안 된다. 과거에는 의성군, 해남군, 삼척군, 용인군이 현재의 울주군보다 인구가 많았다.</rdfs:comment>
+	<rdfs:comment xml:lang="en">A gun (군; 郡) is one of the divisions of a province (along with si), and of the metropolitan cities of Busan, Daegu, Incheon and Ulsan (along with gu). A gun has a population of less than 150,000 (more than that would make it a city or si), is less densely populated than a gu, and is more rural in character than either of the other 2 divisions. Gun are comparable to British non-metropolitan districts. Counties are divided into towns (eup) and districts (myeon).</rdfs:comment>
+	<foaf:primaryTopic xml:lang="ko">http://ko.wikipedia.org/wiki/%EA%B5%B0_(%ED%96%89%EC%A0%95_%EA%B5%AC%EC%97%AD)</foaf:primaryTopic>
+	<foaf:primaryTopic xml:lang="en">http://en.wikipedia.org/wiki/List_of_counties_in_South_Korea</foaf:primaryTopic>
+	<skos:prefLabel xml:lang="ko">군</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/def/ad/Gu">
+	<rdfs:subClassOf rdf:resource="http://lod.datahub.kr/def/ad/Lower-level-local-autonomy"/>
+	<schema:name xml:lang="en">Districts</schema:name>
+	<schema:name xml:lang="ko">구</schema:name>
+	<schema:name xml:lang="ch">區</schema:name>
+	<schema:name xml:lang="rr">Gu</schema:name>
+	<rdfs:label xml:lang="en">Districts</rdfs:label>
+	<rdfs:label xml:lang="ko">구</rdfs:label>
+	<rdfs:label xml:lang="ch">區</rdfs:label>
+	<rdfs:label xml:lang="rr">Gu</rdfs:label>
+	<rdfs:comment xml:lang="ko">자치구는 서울특별시를 비롯한 6대 광역시의 하위 행정 구역이다. 시·군과 동동한 위치로, 자치권과 의회를 가지고 있다. 행정동을 하위 행정 구역으로 가진다. 2007년 1월 1일 현재 전국의 자치구는 69개이다. 자치구가 가장 많은 도시는 서울특별시로 25개의 자치구가 있다. 서울 송파구는 인구가 681,264명으로 가장 많은 자치구이고 부산 중구는 인구가 45,816명으로 가장 적은 자치구이다.</rdfs:comment>
+	<rdfs:comment xml:lang="en">A gu (구; 區) is equivalent to district in the West. Most cities are divided into gus, though the metropolitan cities of Busan, Daegu, Incheon and Ulsan contain guns as well. Gus are similar to boroughs in some Western countries, and a gu office handles many of the functions that would be handled by the city in other jurisdictions. Gus are divided into neighborhoods (dong).</rdfs:comment>
+	<foaf:primaryTopic xml:lang="ko">http://ko.wikipedia.org/wiki/%EA%B5%AC_(%ED%96%89%EC%A0%95_%EA%B5%AC%EC%97%AD)</foaf:primaryTopic>
+	<foaf:primaryTopic xml:lang="en">http://en.wikipedia.org/wiki/List_of_districts_in_South_Korea</foaf:primaryTopic>
+	<skos:prefLabel xml:lang="ko">구</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/def/ad/Eup">
+	<rdfs:subClassOf rdf:resource="http://schema.org/AdministrativeArea"/>
+	<schema:name xml:lang="en">Towns</schema:name>
+	<schema:name xml:lang="ko">읍</schema:name>
+	<schema:name xml:lang="ch">邑</schema:name>
+	<schema:name xml:lang="rr">Eup</schema:name>
+	<rdfs:label xml:lang="en">Towns</rdfs:label>
+	<rdfs:label xml:lang="ko">읍</rdfs:label>
+	<rdfs:label xml:lang="ch">邑</rdfs:label>
+	<rdfs:label xml:lang="rr">Eup</rdfs:label>
+	<rdfs:comment xml:lang="ko">대한민국의 읍(邑)은 시·군·구의 하부 행정 구역이다. 읍의 하부 행정 구역은 면과 같이 리이다. 또한 대한민국에서 읍은 도시라 불릴 수 있는 최소 행정 구역 단위이다. 현재 대한민국의 읍의 개수는 100개 이상으로, 시나 군의 이름과 다른 읍도 몇 개 존재한다. 현재까지 남아 있는 원조 읍 (1931년 승격)은 조치원읍, 강경읍, 철원읍이다.</rdfs:comment>
+	<rdfs:comment xml:lang="en">An eup (읍; 邑) is similar to the unit of town. Along with myeon, an eup is one of the divisions of a county (gun), and of some cities (si) with a population of less than 500,000. The main town or towns in a county—or the secondary town or towns within a city's territory—are designated aseups. Towns are subdivided into villages (ri). In order to form an eup, the minimum population required is 20,000.</rdfs:comment>
+	<foaf:primaryTopic xml:lang="ko">http://ko.wikipedia.org/wiki/%EC%9D%8D</foaf:primaryTopic>
+	<foaf:primaryTopic xml:lang="en">http://en.wikipedia.org/wiki/Eup_(administrative_division)</foaf:primaryTopic>
+	<skos:prefLabel xml:lang="ko">읍</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/def/ad/Myeon">
+	<rdfs:subClassOf rdf:resource="http://schema.org/AdministrativeArea"/>
+	<schema:name xml:lang="en">Townships</schema:name>
+	<schema:name xml:lang="ko">면</schema:name>
+	<schema:name xml:lang="ch">面</schema:name>
+	<schema:name xml:lang="rr">Myeon</schema:name>
+	<rdfs:label xml:lang="en">Townships</rdfs:label>
+	<rdfs:label xml:lang="ko">면</rdfs:label>
+	<rdfs:label xml:lang="ch">面</rdfs:label>
+	<rdfs:label xml:lang="rr">Myeon</rdfs:label>
+	<rdfs:comment xml:lang="ko">대한민국의 면(面)은 자치시·군·구의 하부 행정 구역으로 도시의 형태를 갖추고 (시가지를 구성하는 지역안에 거주하는 인구의 비율이 전체 인구의 40% 이상이며 상업·공업 기타 도시적 산업에 종사하는 가구의 비율이 전체가구의 40% 이상.) 인구가 2만 명 이상이면 읍으로 승격될 수 있다. 이러한 조건을 만족하지 않아도 군청 소재지인 면 또는 읍이 없는 도농복합도시의 면 중 하나가 되어도 읍으로 승격될 수 있다. 하부 행정 구역은 리 (옛날 경상북도, 평안북도, 함경북도는 동을 하부 행정 구역으로 쓴 적이 있었다.)이다. 면이 되려면 최소한 6,000명의 상주 인구를 가지고 있어야 하지만, 울릉군 북면처럼 1000명 이하의 인구가 사는 면도 있다.</rdfs:comment>
+	<rdfs:comment xml:lang="en">A myeon (면; 面) is one of the divisions – along with eup – of a county (gun) and some cities (si) of fewer than 500,000 population. Myeons have smaller populations than eups and represent the rural areas of a county or city. Myeons are subdivided into villages (ri). The minimum population limit is 6,000.</rdfs:comment>
+	<foaf:primaryTopic xml:lang="ko">http://ko.wikipedia.org/wiki/%EB%A9%B4_(%ED%96%89%EC%A0%95_%EA%B5%AC%EC%97%AD)</foaf:primaryTopic>
+	<foaf:primaryTopic xml:lang="en">http://en.wikipedia.org/wiki/Myeon_(administrative_division)</foaf:primaryTopic>
+	<skos:prefLabel xml:lang="ko">면</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/def/ad/Dong">
+	<rdfs:subClassOf rdf:resource="http://schema.org/AdministrativeArea"/>
+	<schema:name xml:lang="en">Neighborhoods</schema:name>
+	<schema:name xml:lang="ko">동</schema:name>
+	<schema:name xml:lang="ch">洞</schema:name>
+	<schema:name xml:lang="rr">Dong</schema:name>
+	<rdfs:label xml:lang="en">Neighborhoods</rdfs:label>
+	<rdfs:label xml:lang="ko">동</rdfs:label>
+	<rdfs:label xml:lang="ch">洞</rdfs:label>
+	<rdfs:label xml:lang="rr">Dong</rdfs:label>
+	<rdfs:comment xml:lang="ko">동(洞)은 대한민국의 행정 구역의 하나로 구 또는 시의 하부 행정 구역이다. 행정동(行政洞)이라고 불리어 법정동과 구별하고 있으며, 모든 행정동에 동주민센터가 있다.</rdfs:comment>
+	<rdfs:comment xml:lang="en">A dong (동; 洞) is the primary division of districts (gu), and of those cities (si) which are not divided into districts. The dong is the smallest level of urban government to have its own office and staff. In some cases, a single legal dong is divided into several administrative dong. Administrativedongs are usually distinguished from one another by number (as in the case of Myeongjang 1-dong and Myeongjang 2-dong). In such cases, each administrative dong has its own office and staff.</rdfs:comment>
+	<foaf:primaryTopic xml:lang="ko">http://ko.wikipedia.org/wiki/%EB%8F%99_(%ED%96%89%EC%A0%95_%EA%B5%AC%EC%97%AD)</foaf:primaryTopic>
+	<foaf:primaryTopic xml:lang="en">http://en.wikipedia.org/wiki/Dong_(administrative_division)</foaf:primaryTopic>
+	<skos:prefLabel xml:lang="ko">동</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/def/ad/Tong">
+	<rdfs:subClassOf rdf:resource="http://schema.org/AdministrativeArea"/>
+	<schema:name xml:lang="en">Villages</schema:name>
+	<schema:name xml:lang="ko">통</schema:name>
+	<schema:name xml:lang="ch">統</schema:name>
+	<schema:name xml:lang="rr">Tong</schema:name>
+	<rdfs:label xml:lang="en">Villages</rdfs:label>
+	<rdfs:label xml:lang="ko">통</rdfs:label>
+	<rdfs:label xml:lang="ch">統</rdfs:label>
+	<rdfs:label xml:lang="rr">Tong</rdfs:label>
+	<rdfs:comment xml:lang="ko">도시지역의 일선행정을 원활히 수행하기 위하여 여러 개의 반으로 구성하는 조직</rdfs:comment>
+	<rdfs:comment xml:lang="en">The primary division of a dong is the tong (통; 統), but divisions at this level and below are seldom used in daily life. Some populous dong are subdivided into ga (가; 街), which are not a separate level of government, but only exist for use in addresses. Many major thoroughfares in Seoul, Suwon, and other cities are also subdivided into ga.</rdfs:comment>
+	<skos:prefLabel xml:lang="ko">통</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/def/ad/Ri">
+	<rdfs:subClassOf rdf:resource="http://schema.org/AdministrativeArea"/>
+	<schema:name xml:lang="en">Villages</schema:name>
+	<schema:name xml:lang="ko">리</schema:name>
+	<schema:name xml:lang="ch">里</schema:name>
+	<schema:name xml:lang="rr">Ri</schema:name>
+	<rdfs:label xml:lang="en">Villages</rdfs:label>
+	<rdfs:label xml:lang="ko">리</rdfs:label>
+	<rdfs:label xml:lang="ch">里</rdfs:label>
+	<rdfs:label xml:lang="rr">Ri</rdfs:label>
+	<rdfs:comment xml:lang="ko">리(里)는 한국의 행정구역이다.</rdfs:comment>
+	<rdfs:comment xml:lang="en">A ri (리; 里) is the only division of towns (eup) and districts (myeon). The ri is the smallest level of rural government to contain any significant number of people</rdfs:comment>
+	<foaf:primaryTopic xml:lang="ko">http://ko.wikipedia.org/wiki/%EB%A6%AC_(%ED%96%89%EC%A0%95_%EA%B5%AC%EC%97%AD)</foaf:primaryTopic>
+	<skos:prefLabel xml:lang="ko">리</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/def/ad/Ban">
+	<rdfs:subClassOf rdf:resource="http://schema.org/AdministrativeArea"/>
+	<schema:name xml:lang="en">Districts</schema:name>
+	<schema:name xml:lang="ko">반</schema:name>
+	<schema:name xml:lang="ch">班</schema:name>
+	<schema:name xml:lang="rr">Ban</schema:name>
+	<rdfs:label xml:lang="en">Districts</rdfs:label>
+	<rdfs:label xml:lang="ko">반</rdfs:label>
+	<rdfs:label xml:lang="ch">班</rdfs:label>
+	<rdfs:label xml:lang="rr">Ban</rdfs:label>
+	<rdfs:comment xml:lang="ko">최일선행정을 원활히 수행하기 위하여 조직된 단위. 지방자치단체가 20가구에서 40가구 정도의 주민을 단위로 구성하고 있는데, 도시지역은 통(統) 소속이나 군지역은 이(里) 소속이다 </rdfs:comment>
+	<skos:prefLabel xml:lang="ko">반</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/def/ad/Ro">
+	<rdfs:subClassOf rdf:resource="http://schema.org/AdministrativeArea"/>
+	<schema:name xml:lang="en">Street</schema:name>
+	<schema:name xml:lang="ko">로</schema:name>
+	<schema:name xml:lang="ch">路</schema:name>
+	<schema:name xml:lang="rr">Ro</schema:name>
+	<rdfs:label xml:lang="en">Street</rdfs:label>
+	<rdfs:label xml:lang="ko">로</rdfs:label>
+	<rdfs:label xml:lang="ch">路</rdfs:label>
+	<rdfs:label xml:lang="rr">Ro</rdfs:label>
+	<rdfs:comment xml:lang="ko">도로명</rdfs:comment>
+	<skos:prefLabel xml:lang="ko">로</skos:prefLabel>
+</rdf:Description>
+
+<!-- Properties -->
+<rdf:Description rdf:about="http://lod.datahub.kr/def/ad/do">
+	<rdfs:label xml:lang="en">Do</rdfs:label>
+	<rdfs:label xml:lang="ko">도</rdfs:label>
+	<rdfs:comment xml:lang="ko">도</rdfs:comment>
+	<rdfs:domain rdf:resource="http://schema.org/AdministrativeArea" />
+	<rdfs:range rdf:resource="http://schema.org/AdministrativeArea" />
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/def/ad/si">
+	<rdfs:label xml:lang="en">Si</rdfs:label>
+	<rdfs:label xml:lang="ko">시</rdfs:label>
+	<rdfs:comment xml:lang="ko">행정구역의 시</rdfs:comment>
+	<rdfs:domain rdf:resource="http://schema.org/AdministrativeArea" />
+	<rdfs:range rdf:resource="http://schema.org/AdministrativeArea" />
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/def/ad/gu">
+	<rdfs:label xml:lang="en">Gu</rdfs:label>
+	<rdfs:label xml:lang="ko">구</rdfs:label>
+	<rdfs:comment xml:lang="ko">행정구역의 구</rdfs:comment>
+	<rdfs:domain rdf:resource="http://schema.org/AdministrativeArea" />
+	<rdfs:range rdf:resource="http://schema.org/AdministrativeArea" />
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/def/ad/gun">
+	<rdfs:label xml:lang="en">Gun</rdfs:label>
+	<rdfs:label xml:lang="ko">군</rdfs:label>
+	<rdfs:comment xml:lang="ko">행정구역의 군</rdfs:comment>
+	<rdfs:domain rdf:resource="http://schema.org/AdministrativeArea" />
+	<rdfs:range rdf:resource="http://schema.org/AdministrativeArea" />
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/def/ad/eup">
+	<rdfs:label xml:lang="en">Eup</rdfs:label>
+	<rdfs:label xml:lang="ko">읍</rdfs:label>
+	<rdfs:comment xml:lang="ko">행정구역의 읍</rdfs:comment>
+	<rdfs:domain rdf:resource="http://schema.org/AdministrativeArea" />
+	<rdfs:range rdf:resource="http://schema.org/AdministrativeArea" />
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/def/ad/myeon">
+	<rdfs:label xml:lang="en">Myeon</rdfs:label>
+	<rdfs:label xml:lang="ko">면</rdfs:label>
+	<rdfs:comment xml:lang="ko">행정구역의 면</rdfs:comment>
+	<rdfs:domain rdf:resource="http://schema.org/AdministrativeArea" />
+	<rdfs:range rdf:resource="http://schema.org/AdministrativeArea" />
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/def/ad/dong">
+	<rdfs:label xml:lang="en">dong</rdfs:label>
+	<rdfs:label xml:lang="ko">동</rdfs:label>
+	<rdfs:comment xml:lang="ko">행정구역의 동</rdfs:comment>
+	<rdfs:domain rdf:resource="http://schema.org/AdministrativeArea" />
+	<rdfs:range rdf:resource="http://schema.org/AdministrativeArea" />
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/def/ad/sidoCode">
+	<rdfs:label xml:lang="en">Si Do Code</rdfs:label>
+	<rdfs:label xml:lang="ko">시, 도 코드</rdfs:label>
+	<rdfs:comment xml:lang="ko">시, 도를 구분하는 코드</rdfs:comment>
+	<rdfs:domain rdf:resource="http://schema.org/AdministrativeArea" />
+	<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer" />
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/def/ad/sigugunCode">
+	<rdfs:label xml:lang="en">Si Gu Gun Code</rdfs:label>
+	<rdfs:label xml:lang="ko">시,구,군 코드</rdfs:label>
+	<rdfs:comment xml:lang="ko">시,구,군을 구분하는 코드</rdfs:comment>
+	<rdfs:domain rdf:resource="http://schema.org/AdministrativeArea" />
+	<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer" />
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/def/ad/eupmeondongCode">
+	<rdfs:label xml:lang="en">Eup Meon Dong Code</rdfs:label>
+	<rdfs:label xml:lang="ko">읍면동 코드</rdfs:label>
+	<rdfs:comment xml:lang="ko">읍, 면, 동을 구분하는 코드</rdfs:comment>
+	<rdfs:domain rdf:resource="http://schema.org/AdministrativeArea" />
+	<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer" />
+</rdf:Description>
+
+
+<rdf:Description rdf:about="http://lod.datahub.kr/def/ad/country">
+	<rdfs:label xml:lang="en">country</rdfs:label>
+	<rdfs:label xml:lang="ko">국가</rdfs:label>
+	<rdfs:comment xml:lang="ko">행정구역의 국가</rdfs:comment>
+	<rdfs:domain rdf:resource="http://schema.org/AdministrativeArea" />
+	<rdfs:range rdf:resource="http://schema.org/Thing" />
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/def/ad/capital">
+	<rdfs:label xml:lang="en">capital</rdfs:label>
+	<rdfs:label xml:lang="ko">소재시</rdfs:label>
+	<rdfs:comment xml:lang="ko">시청이 소재하고 있는 도시</rdfs:comment>
+	<rdfs:domain rdf:resource="http://schema.org/AdministrativeArea" />
+	<rdfs:range rdf:resource="http://schema.org/AdministrativeArea" />
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/def/ad/subdivision">
+	<rdfs:label xml:lang="en">sub division</rdfs:label>
+	<rdfs:label xml:lang="ko">하위 행정구역</rdfs:label>
+	<rdfs:comment xml:lang="ko">행정구역에 소속된 하위 행정구역</rdfs:comment>
+	<rdfs:domain rdf:resource="http://schema.org/AdministrativeArea" />
+	<rdfs:range rdf:resource="http://schema.org/Text" />
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/def/ad/governor">
+	<rdfs:label xml:lang="en">Governor</rdfs:label>
+	<rdfs:label xml:lang="ko">도지사</rdfs:label>
+	<rdfs:comment xml:lang="ko">도지사</rdfs:comment>
+	<rdfs:domain rdf:resource="http://schema.org/AdministrativeArea" />
+	<rdfs:range rdf:resource="http://schema.org/Person" />
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/def/ad/mayor">
+	<rdfs:label xml:lang="en">Mayor</rdfs:label>
+	<rdfs:label xml:lang="ko">시장</rdfs:label>
+	<rdfs:comment xml:lang="ko">시장</rdfs:comment>
+	<rdfs:domain rdf:resource="http://schema.org/AdministrativeArea" />
+	<rdfs:range rdf:resource="http://schema.org/Person" />
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/def/ad/area">
+	<rdfs:label xml:lang="en">area</rdfs:label>
+	<rdfs:label xml:lang="ko">면적</rdfs:label>
+	<rdfs:comment xml:lang="ko">면적</rdfs:comment>
+	<rdfs:domain rdf:resource="http://schema.org/AdministrativeArea" />
+	<rdfs:range rdf:resource="http://schema.org/Number" />
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/def/ad/population">
+	<rdfs:label xml:lang="en">population</rdfs:label>
+	<rdfs:label xml:lang="ko">인구</rdfs:label>
+	<rdfs:comment xml:lang="ko">인구</rdfs:comment>
+	<rdfs:domain rdf:resource="http://schema.org/AdministrativeArea" />
+	<rdfs:range rdf:resource="http://schema.org/Number" />
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/def/ad/numberOfHousehold">
+	<rdfs:label xml:lang="en">Number of Household</rdfs:label>
+	<rdfs:label xml:lang="ko">세대수</rdfs:label>
+	<rdfs:comment xml:lang="ko">특정 행정구역의 세대수</rdfs:comment>
+	<rdfs:domain rdf:resource="http://schema.org/AdministrativeArea" />
+	<rdfs:range rdf:resource="http://schema.org/Number" />
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/def/ad/numberOfRi">
+	<rdfs:label xml:lang="en">Ri</rdfs:label>
+	<rdfs:label xml:lang="ko">리</rdfs:label>
+	<rdfs:comment xml:lang="ko">특정 행정구역의 리의 전체 수</rdfs:comment>
+	<rdfs:domain rdf:resource="http://schema.org/AdministrativeArea" />
+	<rdfs:range rdf:resource="http://schema.org/Number" />
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/def/ad/numberOfBan">
+	<rdfs:label xml:lang="en">Ban</rdfs:label>
+	<rdfs:label xml:lang="ko">반 수</rdfs:label>
+	<rdfs:comment xml:lang="ko">특정 행정구역의 반의 수</rdfs:comment>
+	<rdfs:domain rdf:resource="http://schema.org/AdministrativeArea" />
+	<rdfs:range rdf:resource="http://schema.org/Number" />
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/def/ad/numberOfTong">
+	<rdfs:label xml:lang="en">Tong</rdfs:label>
+	<rdfs:label xml:lang="ko">통</rdfs:label>
+	<rdfs:comment xml:lang="ko">특정 행정구역의 통의 수</rdfs:comment>
+	<rdfs:domain rdf:resource="http://schema.org/AdministrativeArea" />
+	<rdfs:range rdf:resource="http://schema.org/Number" />
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/def/ad/density">
+	<rdfs:label xml:lang="en">density</rdfs:label>
+	<rdfs:label xml:lang="ko">인구밀도</rdfs:label>
+	<rdfs:comment xml:lang="ko">인구밀도</rdfs:comment>
+	<rdfs:domain rdf:resource="http://schema.org/AdministrativeArea" />
+	<rdfs:range rdf:resource="http://schema.org/Text" />
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/def/ad/slogan">
+	<rdfs:label xml:lang="en">Slogan</rdfs:label>
+	<rdfs:label xml:lang="ko">슬로건</rdfs:label>
+	<rdfs:comment xml:lang="ko">슬로건</rdfs:comment>
+	<rdfs:domain rdf:resource="http://schema.org/AdministrativeArea" />
+	<rdfs:range rdf:resource="http://schema.org/Thing" />
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.datahub.kr/def/ad/office">
+	<rdfs:label xml:lang="en">Office</rdfs:label>
+	<rdfs:label xml:lang="ko">사무소</rdfs:label>
+	<rdfs:comment xml:lang="ko">시군구의 업무를 수행하는 사무소 (도청, 시청, 구청, 군청, 읍사무소)</rdfs:comment>
+	<rdfs:domain rdf:resource="http://schema.org/AdministrativeArea" />
+	<rdfs:range rdf:resource="http://schema.org/GovernmentOffice" />
+</rdf:Description>
+
+</rdf:RDF>
